@@ -1,7 +1,7 @@
 import { EN, PL } from '../index';
 
 const translationMock = {
-  defaultLang: [EN, PL],
+  defaultLang: [PL, EN],
   translation: {
     English: {
       something: 'This is translation with `parameter` and `html`!',

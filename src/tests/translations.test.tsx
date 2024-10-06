@@ -1,30 +1,37 @@
 import { render, RenderResult } from '@testing-library/react';
-import translationMock from '../__mocks__/translations';
-import { ENGLISH, Name, POLISH, Regional, Shortcut } from '../index';
+import translationMock from '../__mocks__/translations.mock';
+import {
+  ENGLISH,
+  GERMAN,
+  POLISH,
+  Translation,
+  TranslationProvider,
+} from '../index';
 import TestComponent from './TestComponent.comp';
+import { LanguageNameMix } from '../interfaces/translations/schema.interface';
 
 const { translation } = translationMock;
 const { English, Polish } = translation;
 
-const ENGLISH_SOME_TEXT = (
-  <p>
-    This is translation with some parameter and <a href='#test'>link</a>!
-  </p>
-);
+const ENGLISH_SOME_TEXT =
+  '<p>This is translation with some parameter and <a href="#test">link</a>!</p>';
 
-const createPlayground = (lng?: Name | Shortcut | Regional): RenderResult =>
+const createPlayground = (lng?: LanguageNameMix): RenderResult =>
   render(
-    <TranslationProvider language={lng} translation={translationMock}>
+    <TranslationProvider
+      language={lng}
+      translation={translationMock as unknown as Translation}
+    >
       <TestComponent />
     </TranslationProvider>
   );
 
 const englishSomethingTranslationTest = ({
   container,
-  getByText,
+  queryByText,
 }: RenderResult) => {
-  expect(container.innerHTML).toContain(ENGLISH_SOME_TEXT);
-  expect(getByText(Polish.something)).not.toBeInTheDocument();
+  expect(container).toContainHTML(ENGLISH_SOME_TEXT);
+  expect(queryByText(Polish.something)).not.toBeInTheDocument();
 };
 
 const polishSomethingTranslationTest = ({
@@ -32,17 +39,23 @@ const polishSomethingTranslationTest = ({
   getByText,
 }: RenderResult) => {
   expect(getByText(Polish.something)).toBeInTheDocument();
-  expect(container.innerHTML).not.toContain(ENGLISH_SOME_TEXT);
+  expect(container).not.toContainHTML(ENGLISH_SOME_TEXT);
 };
 
-const englishGreetingTranslationTest = ({ getByText }: RenderResult) => {
+const englishGreetingTranslationTest = ({
+  getByText,
+  queryByText,
+}: RenderResult) => {
   expect(getByText(English.greetings.greeting)).toBeInTheDocument();
-  expect(getByText(Polish.greetings.greeting)).not.toBeInTheDocument();
+  expect(queryByText(Polish.greetings.greeting)).not.toBeInTheDocument();
 };
 
-const polishGreetingTranslationTest = ({ getByText }: RenderResult) => {
+const polishGreetingTranslationTest = ({
+  getByText,
+  queryByText,
+}: RenderResult) => {
   expect(getByText(Polish.greetings.greeting)).toBeInTheDocument();
-  expect(getByText(English.greetings.greeting)).not.toBeInTheDocument();
+  expect(queryByText(English.greetings.greeting)).not.toBeInTheDocument();
 };
 
 const seasonGreetingsTranslationTest = ({ getByText }: RenderResult) => {
@@ -84,6 +97,12 @@ describe('Translation test', () => {
       browserLang.mockReturnValue(POLISH);
       testPolishTranslations(createPlayground());
     });
+
+    test('Should translate to Polish because of missing German translations', () => {
+      browserLang.mockReturnValue(GERMAN);
+      // There is no translation for German. Translation file is setup to prior Polish language. Because of that tests results should be same as for Polish translations.
+      testPolishTranslations(createPlayground());
+    });
   });
 
   describe('with setup language', () => {
@@ -93,6 +112,11 @@ describe('Translation test', () => {
 
     test('Should translate to Polish', () => {
       testPolishTranslations(createPlayground(POLISH));
+    });
+
+    test('Should translate to Polish because of missing German translations', () => {
+      // There is no translation for German. Translation file is setup to prior Polish language. Because of that tests results should be same as for Polish translations.
+      testPolishTranslations(createPlayground(GERMAN));
     });
   });
 });

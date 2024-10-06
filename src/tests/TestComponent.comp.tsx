@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import { useTranslation } from '../index';
 
 const TestComponent: FC = () => {
   const { t } = useTranslation();

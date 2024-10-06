@@ -437,6 +437,9 @@ import {
   LANGUAGES,
   LanguageProps,
 } from './constants/languages/languages';
+import { Translation } from './interfaces/translations/schema.interface';
+import TranslationProvider from './context/translations/provider.const';
+import useTranslation from './hooks/useTranslation.hook';
 
 export {
   AFRIKAANS,
@@ -865,6 +868,15 @@ export {
   YIDDISH_LANG,
   ZULU_LANG,
   LANGUAGES,
+  TranslationProvider,
+  useTranslation,
 };
 
-export type { Name, Shortcut, Regional, RegionalGrouped, LanguageProps };
+export type {
+  Name,
+  Shortcut,
+  Regional,
+  RegionalGrouped,
+  LanguageProps,
+  Translation,
+};
