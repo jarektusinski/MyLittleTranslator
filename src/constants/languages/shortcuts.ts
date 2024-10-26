@@ -1,340 +1,173 @@
-/** Shortcut of Afrikaans language */
-export const AF = 'af';
-
-/** Shortcut of Albanian language */
-export const SQ = 'sq';
-
-/** Shortcut of Arabic language */
-export const AR = 'ar';
-
-/** Shortcut of Armenian language */
-export const HY = 'hy';
-
-/** Shortcut of Azerbaijani language */
-export const AZ = 'az';
-
-/** Shortcut of Basque language */
-export const EU = 'eu';
-
-/** Shortcut of Belarusian language */
-export const BE = 'be';
-
-/** Shortcut of Bengali language */
-export const BN = 'bn';
-
-/** Shortcut of Bosnian language */
-export const BS = 'bs';
-
-/** Shortcut of Bulgarian language */
-export const BG = 'bg';
-
-/** Shortcut of Catalan language */
-export const CA = 'ca';
-
-/** Shortcut of Chinese language */
-export const ZH = 'zh';
-
-/** Shortcut of Croatian language */
-export const HR = 'hr';
-
-/** Shortcut of Czech language */
-export const CS = 'cs';
-
-/** Shortcut of Danish language */
-export const DA = 'da';
-
-/** Shortcut of Dutch language */
-export const NL = 'nl';
-
-/** Shortcut of English language */
-export const EN = 'en';
-
-/** Shortcut of Esperanto language */
-export const EO = 'eo';
-
-/** Shortcut of Estonian language */
-export const ET = 'et';
-
-/** Shortcut of Finnish language */
-export const FI = 'fi';
-
-/** Shortcut of French language */
-export const FR = 'fr';
-
-/** Shortcut of Galician language */
-export const GL = 'gl';
-
-/** Shortcut of Georgian language */
-export const KA = 'ka';
-
-/** Shortcut of German language */
-export const DE = 'de';
-
-/** Shortcut of Greek language */
-export const EL = 'el';
-
-/** Shortcut of Gujarati language */
-export const GU = 'gu';
-
-/** Shortcut of Haitian language */
-export const HT = 'ht';
-
-/** Shortcut of Hausa language */
-export const HA = 'ha';
-
-/** Shortcut of Hebrew language */
-export const HE = 'he';
-
-/** Shortcut of Hindi language */
-export const HI = 'hi';
-
-/** Shortcut of Hungarian language */
-export const HU = 'hu';
-
-/** Shortcut of Icelandic language */
-export const IS = 'is';
-
-/** Shortcut of Indonesian language */
-export const ID = 'id';
-
-/** Shortcut of Irish language */
-export const GA = 'ga';
-
-/** Shortcut of Italian language */
-export const IT = 'it';
-
-/** Shortcut of Japanese language */
-export const JA = 'ja';
-
-/** Shortcut of Kannada language */
-export const KN = 'kn';
-
-/** Shortcut of Kazakh language */
-export const KK = 'kk';
-
-/** Shortcut of Khmer language */
-export const KM = 'km';
-
-/** Shortcut of Korean language */
-export const KO = 'ko';
-
-/** Shortcut of Lao language */
-export const LO = 'lo';
-
-/** Shortcut of Latvian language */
-export const LV = 'lv';
-
-/** Shortcut of Lithuanian language */
-export const LT = 'lt';
-
-/** Shortcut of Luxembourgish language */
-export const LB = 'lb';
-
-/** Shortcut of Macedonian language */
-export const MK = 'mk';
-
-/** Shortcut of Malay language */
-export const MS = 'ms';
-
-/** Shortcut of Malayalam language */
-export const ML = 'ml';
-
-/** Shortcut of Maltese language */
-export const MT = 'mt';
-
-/** Shortcut of Marathi language */
-export const MR = 'mr';
-
-/** Shortcut of Mongolian language */
-export const MN = 'mn';
-
-/** Shortcut of Nepali language */
-export const NE = 'ne';
-
-/** Shortcut of Norwegian language */
-export const NO = 'no';
-
-/** Shortcut of Odia language */
-export const OR = 'or';
-
-/** Shortcut of Pashto language */
-export const PS = 'ps';
-
-/** Shortcut of Persian language */
-export const FA = 'fa';
-
-/** Shortcut of Polish language */
-export const PL = 'pl';
-
-/** Shortcut of Portuguese language */
-export const PT = 'pt';
-
-/** Shortcut of Punjabi language */
-export const PA = 'pa';
-
-/** Shortcut of Romanian language */
-export const RO = 'ro';
-
-/** Shortcut of Russian language */
-export const RU = 'ru';
-
-/** Shortcut of Serbian language */
-export const SR = 'sr';
-
-/** Shortcut of Sesotho language */
-export const ST = 'st';
-
-/** Shortcut of Sinhala language */
-export const SI = 'si';
-
-/** Shortcut of Slovak language */
-export const SK = 'sk';
-
-/** Shortcut of Slovenian language */
-export const SL = 'sl';
-
-/** Shortcut of Somali language */
-export const SO = 'so';
-
-/** Shortcut of Spanish language */
-export const ES = 'es';
-
-/** Shortcut of Sundanese language */
-export const SU = 'su';
-
-/** Shortcut of Swahili language */
-export const SW = 'sw';
-
-/** Shortcut of Swedish language */
-export const SV = 'sv';
-
-/** Shortcut of Tamil language */
-export const TA = 'ta';
-
-/** Shortcut of Telugu language */
-export const TE = 'te';
-
-/** Shortcut of Thai language */
-export const TH = 'th';
-
-/** Shortcut of Tibetan language */
-export const BO = 'bo';
-
-/** Shortcut of Tigrinya language */
-export const TI = 'ti';
-
-/** Shortcut of Turkish language */
-export const TR = 'tr';
-
-/** Shortcut of Ukrainian language */
-export const UK = 'uk';
-
-/** Shortcut of Urdu language */
-export const UR = 'ur';
-
-/** Shortcut of Uzbek language */
-export const UZ = 'uz';
-
-/** Shortcut of Vietnamese language */
-export const VI = 'vi';
-
-/** Shortcut of Welsh language */
-export const CY = 'cy';
-
-/** Shortcut of Xhosa language */
-export const XH = 'xh';
-
-/** Shortcut of Yiddish language */
-export const YI = 'yi';
-
-/** Shortcut of Zulu language */
-export const ZU = 'zu';
-
-export const SHORTCUTS = [
-  AF,
-  SQ,
-  AR,
-  HY,
-  AZ,
-  EU,
-  BE,
-  BN,
-  BS,
-  BG,
-  CA,
-  ZH,
-  HR,
-  CS,
-  DA,
-  NL,
-  EN,
-  EO,
-  ET,
-  FI,
-  FR,
-  GL,
-  KA,
-  DE,
-  EL,
-  GU,
-  HT,
-  HA,
-  HE,
-  HI,
-  HU,
-  IS,
-  ID,
-  GA,
-  IT,
-  JA,
-  KN,
-  KK,
-  KM,
-  KO,
-  LO,
-  LV,
-  LT,
-  LB,
-  MK,
-  MS,
-  ML,
-  MT,
-  MR,
-  MN,
-  NE,
-  NO,
-  OR,
-  PS,
-  FA,
-  PL,
-  PT,
-  PA,
-  RO,
-  RU,
-  SR,
-  ST,
-  SI,
-  SK,
-  SL,
-  SO,
-  ES,
-  SU,
-  SW,
-  SV,
-  TA,
-  TE,
-  TH,
-  BO,
-  TI,
-  TR,
-  UK,
-  UR,
-  UZ,
-  VI,
-  CY,
-  XH,
-  YI,
-  ZU,
+export const AFRIKAANS_LANG_NAME_SHORTCUT = 'af';
+export const ALBANIAN_LANG_NAME_SHORTCUT = 'sq';
+export const ARABIC_LANG_NAME_SHORTCUT = 'ar';
+export const ARMENIAN_LANG_NAME_SHORTCUT = 'hy';
+export const AZERBAIJANI_LANG_NAME_SHORTCUT = 'az';
+export const BASQUE_LANG_NAME_SHORTCUT = 'eu';
+export const BELARUSIAN_LANG_NAME_SHORTCUT = 'be';
+export const BENGALI_LANG_NAME_SHORTCUT = 'bn';
+export const BOSNIAN_LANG_NAME_SHORTCUT = 'bs';
+export const BULGARIAN_LANG_NAME_SHORTCUT = 'bg';
+export const CATALAN_LANG_NAME_SHORTCUT = 'ca';
+export const CHINESE_LANG_NAME_SHORTCUT = 'zh';
+export const CROATIAN_LANG_NAME_SHORTCUT = 'hr';
+export const CZECH_LANG_NAME_SHORTCUT = 'cs';
+export const DANISH_LANG_NAME_SHORTCUT = 'da';
+export const DUTCH_LANG_NAME_SHORTCUT = 'nl';
+export const ENGLISH_LANG_NAME_SHORTCUT = 'en';
+export const ESPERANTO_LANG_NAME_SHORTCUT = 'eo';
+export const ESTONIAN_LANG_NAME_SHORTCUT = 'et';
+export const FINNISH_LANG_NAME_SHORTCUT = 'fi';
+export const FRENCH_LANG_NAME_SHORTCUT = 'fr';
+export const GALICIAN_LANG_NAME_SHORTCUT = 'gl';
+export const GEORGIAN_LANG_NAME_SHORTCUT = 'ka';
+export const GERMAN_LANG_NAME_SHORTCUT = 'de';
+export const GREEK_LANG_NAME_SHORTCUT = 'el';
+export const GUJARATI_LANG_NAME_SHORTCUT = 'gu';
+export const HAITIAN_LANG_NAME_SHORTCUT = 'ht';
+export const HAUSA_LANG_NAME_SHORTCUT = 'ha';
+export const HEBREW_LANG_NAME_SHORTCUT = 'he';
+export const HINDI_LANG_NAME_SHORTCUT = 'hi';
+export const HUNGARIAN_LANG_NAME_SHORTCUT = 'hu';
+export const ICELANDIC_LANG_NAME_SHORTCUT = 'is';
+export const INDONESIAN_LANG_NAME_SHORTCUT = 'id';
+export const IRISH_LANG_NAME_SHORTCUT = 'ga';
+export const ITALIAN_LANG_NAME_SHORTCUT = 'it';
+export const JAPANESE_LANG_NAME_SHORTCUT = 'ja';
+export const KANNADA_LANG_NAME_SHORTCUT = 'kn';
+export const KAZAKH_LANG_NAME_SHORTCUT = 'kk';
+export const KHMER_LANG_NAME_SHORTCUT = 'km';
+export const KOREAN_LANG_NAME_SHORTCUT = 'ko';
+export const LAO_LANG_NAME_SHORTCUT = 'lo';
+export const LATVIAN_LANG_NAME_SHORTCUT = 'lv';
+export const LITHUANIAN_LANG_NAME_SHORTCUT = 'lt';
+export const LUXEMBOURGISH_LANG_NAME_SHORTCUT = 'lb';
+export const MACEDONIAN_LANG_NAME_SHORTCUT = 'mk';
+export const MALAY_LANG_NAME_SHORTCUT = 'ms';
+export const MALAYALAM_LANG_NAME_SHORTCUT = 'ml';
+export const MALTESE_LANG_NAME_SHORTCUT = 'mt';
+export const MARATHI_LANG_NAME_SHORTCUT = 'mr';
+export const MONGOLIAN_LANG_NAME_SHORTCUT = 'mn';
+export const NEPALI_LANG_NAME_SHORTCUT = 'ne';
+export const NORWEGIAN_LANG_NAME_SHORTCUT = 'no';
+export const ODIA_LANG_NAME_SHORTCUT = 'or';
+export const PASHTO_LANG_NAME_SHORTCUT = 'ps';
+export const PERSIAN_LANG_NAME_SHORTCUT = 'fa';
+export const POLISH_LANG_NAME_SHORTCUT = 'pl';
+export const PORTUGUESE_LANG_NAME_SHORTCUT = 'pt';
+export const PUNJABI_LANG_NAME_SHORTCUT = 'pa';
+export const ROMANIAN_LANG_NAME_SHORTCUT = 'ro';
+export const RUSSIAN_LANG_NAME_SHORTCUT = 'ru';
+export const SERBIAN_LANG_NAME_SHORTCUT = 'sr';
+export const SESOTHO_LANG_NAME_SHORTCUT = 'st';
+export const SINHALA_LANG_NAME_SHORTCUT = 'si';
+export const SLOVAK_LANG_NAME_SHORTCUT = 'sk';
+export const SLOVENIAN_LANG_NAME_SHORTCUT = 'sl';
+export const SOMALI_LANG_NAME_SHORTCUT = 'so';
+export const SPANISH_LANG_NAME_SHORTCUT = 'es';
+export const SUNDANESE_LANG_NAME_SHORTCUT = 'su';
+export const SWAHILI_LANG_NAME_SHORTCUT = 'sw';
+export const SWEDISH_LANG_NAME_SHORTCUT = 'sv';
+export const TAMIL_LANG_NAME_SHORTCUT = 'ta';
+export const TELUGU_LANG_NAME_SHORTCUT = 'te';
+export const THAI_LANG_NAME_SHORTCUT = 'th';
+export const TIBETAN_LANG_NAME_SHORTCUT = 'bo';
+export const TIGRINYA_LANG_NAME_SHORTCUT = 'ti';
+export const TURKISH_LANG_NAME_SHORTCUT = 'tr';
+export const UKRAINIAN_LANG_NAME_SHORTCUT = 'uk';
+export const URDU_LANG_NAME_SHORTCUT = 'ur';
+export const UZBEK_LANG_NAME_SHORTCUT = 'uz';
+export const VIETNAMESE_LANG_NAME_SHORTCUT = 'vi';
+export const WELSH_LANG_NAME_SHORTCUT = 'cy';
+export const XHOSA_LANG_NAME_SHORTCUT = 'xh';
+export const YIDDISH_LANG_NAME_SHORTCUT = 'yi';
+export const ZULU_LANG_NAME_SHORTCUT = 'zu';
+
+export const LANGUAGE_NAMES_SHORTCUTS = [
+  AFRIKAANS_LANG_NAME_SHORTCUT,
+  ALBANIAN_LANG_NAME_SHORTCUT,
+  ARABIC_LANG_NAME_SHORTCUT,
+  ARMENIAN_LANG_NAME_SHORTCUT,
+  AZERBAIJANI_LANG_NAME_SHORTCUT,
+  BASQUE_LANG_NAME_SHORTCUT,
+  BELARUSIAN_LANG_NAME_SHORTCUT,
+  BENGALI_LANG_NAME_SHORTCUT,
+  BOSNIAN_LANG_NAME_SHORTCUT,
+  BULGARIAN_LANG_NAME_SHORTCUT,
+  CATALAN_LANG_NAME_SHORTCUT,
+  CHINESE_LANG_NAME_SHORTCUT,
+  CROATIAN_LANG_NAME_SHORTCUT,
+  CZECH_LANG_NAME_SHORTCUT,
+  DANISH_LANG_NAME_SHORTCUT,
+  DUTCH_LANG_NAME_SHORTCUT,
+  ENGLISH_LANG_NAME_SHORTCUT,
+  ESPERANTO_LANG_NAME_SHORTCUT,
+  ESTONIAN_LANG_NAME_SHORTCUT,
+  FINNISH_LANG_NAME_SHORTCUT,
+  FRENCH_LANG_NAME_SHORTCUT,
+  GALICIAN_LANG_NAME_SHORTCUT,
+  GEORGIAN_LANG_NAME_SHORTCUT,
+  GERMAN_LANG_NAME_SHORTCUT,
+  GREEK_LANG_NAME_SHORTCUT,
+  GUJARATI_LANG_NAME_SHORTCUT,
+  HAITIAN_LANG_NAME_SHORTCUT,
+  HAUSA_LANG_NAME_SHORTCUT,
+  HEBREW_LANG_NAME_SHORTCUT,
+  HINDI_LANG_NAME_SHORTCUT,
+  HUNGARIAN_LANG_NAME_SHORTCUT,
+  ICELANDIC_LANG_NAME_SHORTCUT,
+  INDONESIAN_LANG_NAME_SHORTCUT,
+  IRISH_LANG_NAME_SHORTCUT,
+  ITALIAN_LANG_NAME_SHORTCUT,
+  JAPANESE_LANG_NAME_SHORTCUT,
+  KANNADA_LANG_NAME_SHORTCUT,
+  KAZAKH_LANG_NAME_SHORTCUT,
+  KHMER_LANG_NAME_SHORTCUT,
+  KOREAN_LANG_NAME_SHORTCUT,
+  LAO_LANG_NAME_SHORTCUT,
+  LATVIAN_LANG_NAME_SHORTCUT,
+  LITHUANIAN_LANG_NAME_SHORTCUT,
+  LUXEMBOURGISH_LANG_NAME_SHORTCUT,
+  MACEDONIAN_LANG_NAME_SHORTCUT,
+  MALAY_LANG_NAME_SHORTCUT,
+  MALAYALAM_LANG_NAME_SHORTCUT,
+  MALTESE_LANG_NAME_SHORTCUT,
+  MARATHI_LANG_NAME_SHORTCUT,
+  MONGOLIAN_LANG_NAME_SHORTCUT,
+  NEPALI_LANG_NAME_SHORTCUT,
+  NORWEGIAN_LANG_NAME_SHORTCUT,
+  ODIA_LANG_NAME_SHORTCUT,
+  PASHTO_LANG_NAME_SHORTCUT,
+  PERSIAN_LANG_NAME_SHORTCUT,
+  POLISH_LANG_NAME_SHORTCUT,
+  PORTUGUESE_LANG_NAME_SHORTCUT,
+  PUNJABI_LANG_NAME_SHORTCUT,
+  ROMANIAN_LANG_NAME_SHORTCUT,
+  RUSSIAN_LANG_NAME_SHORTCUT,
+  SERBIAN_LANG_NAME_SHORTCUT,
+  SESOTHO_LANG_NAME_SHORTCUT,
+  SINHALA_LANG_NAME_SHORTCUT,
+  SLOVAK_LANG_NAME_SHORTCUT,
+  SLOVENIAN_LANG_NAME_SHORTCUT,
+  SOMALI_LANG_NAME_SHORTCUT,
+  SPANISH_LANG_NAME_SHORTCUT,
+  SUNDANESE_LANG_NAME_SHORTCUT,
+  SWAHILI_LANG_NAME_SHORTCUT,
+  SWEDISH_LANG_NAME_SHORTCUT,
+  TAMIL_LANG_NAME_SHORTCUT,
+  TELUGU_LANG_NAME_SHORTCUT,
+  THAI_LANG_NAME_SHORTCUT,
+  TIBETAN_LANG_NAME_SHORTCUT,
+  TIGRINYA_LANG_NAME_SHORTCUT,
+  TURKISH_LANG_NAME_SHORTCUT,
+  UKRAINIAN_LANG_NAME_SHORTCUT,
+  URDU_LANG_NAME_SHORTCUT,
+  UZBEK_LANG_NAME_SHORTCUT,
+  VIETNAMESE_LANG_NAME_SHORTCUT,
+  WELSH_LANG_NAME_SHORTCUT,
+  XHOSA_LANG_NAME_SHORTCUT,
+  YIDDISH_LANG_NAME_SHORTCUT,
+  ZULU_LANG_NAME_SHORTCUT,
 ] as const;
 
-export type Shortcut = (typeof SHORTCUTS)[number];
+export type LanguageNameShortcut = (typeof LANGUAGE_NAMES_SHORTCUTS)[number];

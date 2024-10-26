@@ -1,12 +1,13 @@
-import { Regional } from '../../constants/languages/regionals';
-import { Name } from '../../constants/languages/names';
-import { Shortcut } from '../../constants/languages/shortcuts';
+import { RegionalLanguageName } from '../constants/languages/regionals';
+import { LanguageName } from '../constants/languages/names';
+import { LanguageNameShortcut } from '../constants/languages/shortcuts';
 
 /** @inner */
 export interface TranslationProps {
   [key: string]: string | TranslationProps;
 }
 
+/** Determine to use first of three types */
 type Only<T, U, V> = {
   [key in keyof T]: T[key];
 } & {
@@ -15,33 +16,41 @@ type Only<T, U, V> = {
   [key in keyof V]?: never;
 };
 
+/** Determine to use only one of three types in the same case */
 type Either<T, U, V> = Only<T, U, V> | Only<U, T, V> | Only<V, U, T>;
 
-type NameTranslationSchema = {
-  [key in Name]?: TranslationProps;
+type LanguageNameTranslationSchema = {
+  [key in LanguageName]?: TranslationProps;
 };
 
 type ShortcutTranslationSchema = {
-  [key in Shortcut]?: TranslationProps;
+  [key in LanguageNameShortcut]?: TranslationProps;
 };
 
 type RegionalTranslationSchema = {
-  [key in Regional]?: TranslationProps;
+  [key in RegionalLanguageName]?: TranslationProps;
 };
 
 type TranslationSchema = Either<
-  NameTranslationSchema,
+  LanguageNameTranslationSchema,
   ShortcutTranslationSchema,
   RegionalTranslationSchema
 >;
-/** @inner */
-export type LanguageNameMix = Name | Shortcut | Regional;
+
+/**
+ * Mixed of languages names, shortcuts and regionalisms
+ * @inner
+ */
+export type LanguageNameMix =
+  | LanguageName
+  | LanguageNameShortcut
+  | RegionalLanguageName;
 
 type Language =
   | LanguageNameMix
-  | [Name, ...Name[]]
-  | [Shortcut, ...Shortcut[]]
-  | [Regional, ...Regional[]];
+  | [LanguageName, ...LanguageName[]]
+  | [LanguageNameShortcut, ...LanguageNameShortcut[]]
+  | [RegionalLanguageName, ...RegionalLanguageName[]];
 
 /**
  * Translation file schema.

@@ -1,799 +1,655 @@
-/** South African language regional shortcut */
-export const AF_ZA = 'af-ZA';
+export const SOUTH_AFRICAN_LANG_NAME_REGIONAL_SHORTCUT = 'af-ZA';
 
-/** Albanian language regional shortcut */
-export const SQ_AL = 'sq-AL';
+export const ALBANIAN_LANG_NAME_REGIONAL_SHORTCUT = 'sq-AL';
 
-/** Egyptian language regional shortcut */
-export const AR_EG = 'ar-EG';
-/** Saudi Arabic language regional shortcut */
-export const AR_SA = 'ar-SA';
-/** Algerian language regional shortcut */
-export const AR_DZ = 'ar-DZ';
-/** Moroccan language regional shortcut */
-export const AR_MA = 'ar-MA';
-/** Tunisian language regional shortcut */
-export const AR_TN = 'ar-TN';
-/** Libyan language regional shortcut */
-export const AR_LY = 'ar-LY';
-/** Omani language regional shortcut */
-export const AR_OM = 'ar-OM';
-/** Yemeni language regional shortcut */
-export const AR_YE = 'ar-YE';
-/** Sudanian language regional shortcut */
-export const AR_SD = 'ar-SD';
-/** Qatari language regional shortcut */
-export const AR_QA = 'ar-QA';
-/** Bahraini language regional shortcut */
-export const AR_BH = 'ar-BH';
-/** Kuwaiti language regional shortcut */
-export const AR_KW = 'ar-KW';
-/** Emirati language regional shortcut */
-export const AR_AE = 'ar-AE';
-/** Israeli language regional shortcut */
-export const AR_IL = 'ar-IL';
-/** Palestinian language regional shortcut */
-export const AR_PS = 'ar-PS';
-/** Jordanian language regional shortcut */
-export const AR_JO = 'ar-JO';
-/** Lebanese language regional shortcut */
-export const AR_LB = 'ar-LB';
-/** Mauritanian language regional shortcut */
-export const AR_MR = 'ar-MR';
-/** Arabic languages regional shortcuts */
-export const AR_LIST = [
-  AR_EG,
-  AR_SA,
-  AR_DZ,
-  AR_MA,
-  AR_TN,
-  AR_LY,
-  AR_OM,
-  AR_YE,
-  AR_SD,
-  AR_QA,
-  AR_BH,
-  AR_KW,
-  AR_AE,
-  AR_IL,
-  AR_PS,
-  AR_JO,
-  AR_LB,
-  AR_MR,
+export const EGYPTIAN_LANG_NAME_REGIONAL_SHORTCUT = 'ar-EG';
+export const SAUDI_ARABIC_LANG_NAME_REGIONAL_SHORTCUT = 'ar-SA';
+export const ALGERIAN_LANG_NAME_REGIONAL_SHORTCUT = 'ar-DZ';
+export const MOROCCAN_LANG_NAME_REGIONAL_SHORTCUT = 'ar-MA';
+export const TUNISIAN_LANG_NAME_REGIONAL_SHORTCUT = 'ar-TN';
+export const LIBYAN_LANG_NAME_REGIONAL_SHORTCUT = 'ar-LY';
+export const OMANI_LANG_NAME_REGIONAL_SHORTCUT = 'ar-OM';
+export const YEMENI_LANG_NAME_REGIONAL_SHORTCUT = 'ar-YE';
+export const SUDANIAN_LANG_NAME_REGIONAL_SHORTCUT = 'ar-SD';
+export const QATARI_LANG_NAME_REGIONAL_SHORTCUT = 'ar-QA';
+export const BAHRAINI_LANG_NAME_REGIONAL_SHORTCUT = 'ar-BH';
+export const KUWAITI_LANG_NAME_REGIONAL_SHORTCUT = 'ar-KW';
+export const EMIRATI_LANG_NAME_REGIONAL_SHORTCUT = 'ar-AE';
+export const ISRAELI_LANG_NAME_REGIONAL_SHORTCUT = 'ar-IL';
+export const PALESTINIAN_LANG_NAME_REGIONAL_SHORTCUT = 'ar-PS';
+export const JORDANIAN_LANG_NAME_REGIONAL_SHORTCUT = 'ar-JO';
+export const LEBANESE_LANG_NAME_REGIONAL_SHORTCUT = 'ar-LB';
+export const MAURITANIAN_LANG_NAME_REGIONAL_SHORTCUT = 'ar-MR';
+export const ARABIC_LANG_NAME_REGIONAL_SHORTCUTS = [
+  EGYPTIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  SAUDI_ARABIC_LANG_NAME_REGIONAL_SHORTCUT,
+  ALGERIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  MOROCCAN_LANG_NAME_REGIONAL_SHORTCUT,
+  TUNISIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  LIBYAN_LANG_NAME_REGIONAL_SHORTCUT,
+  OMANI_LANG_NAME_REGIONAL_SHORTCUT,
+  YEMENI_LANG_NAME_REGIONAL_SHORTCUT,
+  SUDANIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  QATARI_LANG_NAME_REGIONAL_SHORTCUT,
+  BAHRAINI_LANG_NAME_REGIONAL_SHORTCUT,
+  KUWAITI_LANG_NAME_REGIONAL_SHORTCUT,
+  EMIRATI_LANG_NAME_REGIONAL_SHORTCUT,
+  ISRAELI_LANG_NAME_REGIONAL_SHORTCUT,
+  PALESTINIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  JORDANIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  LEBANESE_LANG_NAME_REGIONAL_SHORTCUT,
+  MAURITANIAN_LANG_NAME_REGIONAL_SHORTCUT,
 ] as const;
 
-/** Armenian language regional shortcut */
-export const HY_AM = 'hy-AM';
+export const ARMENIAN_LANG_NAME_REGIONAL_SHORTCUT = 'hy-AM';
 
-/** Azerbaijani language regional shortcut */
-export const AZ_AZ = 'az-AZ';
+export const AZERBAIJANI_LANG_NAME_REGIONAL_SHORTCUT = 'az-AZ';
 
-/** Basque language regional shortcut */
-export const EU_SE = 'eu-ES';
+export const BASQUE_LANG_NAME_REGIONAL_SHORTCUT = 'eu-ES';
 
-/** Belarusian language regional shortcut */
-export const BE_BY = 'be-BY';
+export const BELARUSIAN_LANG_NAME_REGIONAL_SHORTCUT = 'be-BY';
 
-/** Bangladeshi Bengali language regional shortcut */
-export const BN_BD = 'bn-BD';
-/** Indian Bengali language regional shortcut */
-export const BN_IN = 'bn-IN';
-/** Bengali languages regional shortcuts */
-export const BN_LIST = [BN_BD, BN_IN] as const;
-
-/** Bosnian language regional shortcut */
-export const BS_BA = 'bs-BA';
-
-/** Bulgarian language regional shortcut */
-export const BG_BG = 'bg-BG';
-
-/** Catalan language regional shortcut */
-export const CA_ES = 'ca-ES';
-
-/** Simplified Chinese language regional shortcut */
-export const ZH_CN = 'zh-CN';
-/** Singapore Chinese language regional shortcut */
-export const ZH_SG = 'zh-SG';
-/** Hong Kong Chinese language regional shortcut */
-export const ZH_HK = 'zh-HK';
-/** Taiwan Chinese language regional shortcut */
-export const ZH_TW = 'zh-TW';
-/** Chinese languages regional shortcuts */
-export const ZH_LIST = [ZH_CN, ZH_SG, ZH_HK, ZH_TW] as const;
-
-/** Croatian language regional shortcut */
-export const HR_HR = 'hr-HR';
-
-/** Czech language regional shortcut */
-export const CS_CZ = 'cs-CZ';
-
-/** Danish language regional shortcut */
-export const DA_DK = 'da-DK';
-
-/** Netherlands Dutch language regional shortcut */
-export const NL_NL = 'nl-NL';
-/** Flemish Dutch language regional shortcut */
-export const NL_BE = 'nl-BE';
-/** Dutch languages regional shortcuts */
-export const NL_LIST = [NL_NL, NL_BE] as const;
-
-/** American English language regional shortcut */
-export const EN_US = 'en-US';
-/** British English language regional shortcut */
-export const EN_GB = 'en-GB';
-/** Canadian English language regional shortcut */
-export const EN_CA = 'en-CA';
-/** Australian English language regional shortcut */
-export const EN_AU = 'en-AU';
-/** New Zealand English language regional shortcut */
-export const EN_NZ = 'en-NZ';
-/** South African English language regional shortcut */
-export const EN_ZA = 'en-ZA';
-/** Irish English language regional shortcut */
-export const EN_IE = 'en-IE';
-/** Indian English language regional shortcut */
-export const EN_IN = 'en-IN';
-/** Singapore English language regional shortcut */
-export const EN_SG = 'en-SG';
-/** Malaysian English language regional shortcut */
-export const EN_MY = 'en-MY';
-/** Philippian English language regional shortcut */
-export const EN_PH = 'en-PH';
-/** Hong Kong English language regional shortcut */
-export const EN_HK = 'en-HK';
-/** Fijian English language regional shortcut */
-export const EN_FJ = 'en-FJ';
-/** English languages regional shortcuts */
-export const EN_LIST = [
-  EN_US,
-  EN_GB,
-  EN_CA,
-  EN_AU,
-  EN_NZ,
-  EN_ZA,
-  EN_IE,
-  EN_IN,
-  EN_SG,
-  EN_MY,
-  EN_PH,
-  EN_HK,
-  EN_FJ,
+export const BANGLADESHI_BENGALI_LANG_NAME_REGIONAL_SHORTCUT = 'bn-BD';
+export const INDIAN_BENGALI_LANG_NAME_REGIONAL_SHORTCUT = 'bn-IN';
+export const BENGALI_LANG_NAME_REGIONAL_SHORTCUTS = [
+  BANGLADESHI_BENGALI_LANG_NAME_REGIONAL_SHORTCUT,
+  INDIAN_BENGALI_LANG_NAME_REGIONAL_SHORTCUT,
 ] as const;
 
-/** Esperanto language regional shortcut */
-export const EO_ = 'eo';
+export const BOSNIAN_LANG_NAME_REGIONAL_SHORTCUT = 'bs-BA';
 
-/** Estonian language regional shortcut */
-export const ET_EE = 'et-EE';
+export const BULGARIAN_LANG_NAME_REGIONAL_SHORTCUT = 'bg-BG';
 
-/** Finnish language regional shortcut */
-export const FI_FI = 'fi-FI';
+export const CATALAN_LANG_NAME_REGIONAL_SHORTCUT = 'ca-ES';
 
-/** French language regional shortcut */
-export const FR_FR = 'fr-FR';
-/** Canadian French language regional shortcut */
-export const FR_CA = 'fr-CA';
-/** Belgium French language regional shortcut */
-export const FR_BE = 'fr-BE';
-/** Swiss French language regional shortcut */
-export const FR_CH = 'fr-CH';
-/** Luxembourgian French language regional shortcut */
-export const FR_LU = 'fr-LU';
-/** Moroccan French language regional shortcut */
-export const FR_MA = 'fr-MA';
-/** Tunisian French language regional shortcut */
-export const FR_TN = 'fr-TN';
-/** Algerian French language regional shortcut */
-export const FR_DZ = 'fr-DZ';
-/** Cameroonian French language regional shortcut */
-export const FR_CM = 'fr-CM';
-/** Congolese French language regional shortcut */
-export const FR_CG = 'fr-CG';
-/** Gambian French language regional shortcut */
-export const FR_GA = 'fr-GA';
-/** Guinean French language regional shortcut */
-export const FR_GN = 'fr-GN';
-/** Ivory Coast French language regional shortcut */
-export const FR_CI = 'fr-CI';
-/** Malian French language regional shortcut */
-export const FR_ML = 'fr-ML';
-/** Nigerian French language regional shortcut */
-export const FR_NE = 'fr-NE';
-/** Senegalese French language regional shortcut */
-export const FR_SN = 'fr-SN';
-/** Chadian French language regional shortcut */
-export const FR_TD = 'fr-TD';
-/** Togolese French language regional shortcut */
-export const FR_TG = 'fr-TG';
-/** Burkina Faso French language regional shortcut */
-export const FR_BF = 'fr-BF';
-/** Djibouti French language regional shortcut */
-export const FR_DJ = 'fr-DJ';
-/** Lebanon French language regional shortcut */
-export const FR_LB = 'fr-LB';
-/** Mauritanian French language regional shortcut */
-export const FR_MR = 'fr-MR';
-/** French languages regional shortcuts */
-export const FR_LIST = [
-  FR_FR,
-  FR_CA,
-  FR_BE,
-  FR_CH,
-  FR_LU,
-  FR_MA,
-  FR_TN,
-  FR_DZ,
-  FR_CM,
-  FR_CG,
-  FR_GA,
-  FR_GN,
-  FR_CI,
-  FR_ML,
-  FR_NE,
-  FR_SN,
-  FR_TD,
-  FR_TG,
-  FR_BF,
-  FR_DJ,
-  FR_LB,
-  FR_MR,
+export const SIMPLIFIED_CHINESE_LANG_NAME_REGIONAL_SHORTCUT = 'zh-CN';
+export const SINGAPORE_CHINESE_LANG_NAME_REGIONAL_SHORTCUT = 'zh-SG';
+export const HONG_KONG_CHINESE_LANG_NAME_REGIONAL_SHORTCUT = 'zh-HK';
+export const TAIWAN_CHINESE_LANG_NAME_REGIONAL_SHORTCUT = 'zh-TW';
+export const CHINESE_LANG_NAME_REGIONAL_SHORTCUTS = [
+  SIMPLIFIED_CHINESE_LANG_NAME_REGIONAL_SHORTCUT,
+  SINGAPORE_CHINESE_LANG_NAME_REGIONAL_SHORTCUT,
+  HONG_KONG_CHINESE_LANG_NAME_REGIONAL_SHORTCUT,
+  TAIWAN_CHINESE_LANG_NAME_REGIONAL_SHORTCUT,
 ] as const;
 
-/** Galician language regional shortcut */
-export const GL_ES = 'gl-ES';
+export const CROATIAN_LANG_NAME_REGIONAL_SHORTCUT = 'hr-HR';
 
-/** Georgian language regional shortcut */
-export const KA_GE = 'ka-GE';
+export const CZECH_LANG_NAME_REGIONAL_SHORTCUT = 'cs-CZ';
 
-/** German language regional shortcut */
-export const DE_DE = 'de-DE';
-/** Austrian German language regional shortcut */
-export const DE_AT = 'de-AT';
-/** Swiss German language regional shortcut */
-export const DE_CH = 'de-CH';
-/** German languages regional shortcuts */
-export const DE_LIST = [DE_DE, DE_AT, DE_CH] as const;
+export const DANISH_LANG_NAME_REGIONAL_SHORTCUT = 'da-DK';
 
-/** Greek language regional shortcut */
-export const EL_GR = 'el-GR';
-
-/** Gujarati language regional shortcut */
-export const GU_IN = 'gu-IN';
-
-/** Haitian language regional shortcut */
-export const HT_HT = 'ht-HT';
-
-/** Nigeria Hausa language regional shortcut */
-export const HA_NG = 'ha-NG';
-/** Niger Hausa language regional shortcut */
-export const HA_NE = 'ha-NE';
-/** Hausa languages regional shortcuts */
-export const HA_LIST = [HA_NG, HA_NE] as const;
-
-/** Hebrew language regional shortcut */
-export const HE_IL = 'he-IL';
-
-/** Hindi language regional shortcut */
-export const HI_IN = 'hi-IN';
-
-/** Hungarian language regional shortcut */
-export const HU_HU = 'hu-HU';
-
-/** Icelandic language regional shortcut */
-export const IS_IS = 'is-IS';
-
-/** Indonesian language regional shortcut */
-export const ID_ID = 'id-ID';
-
-/** Irish language regional shortcut */
-export const GA_IE = 'ga-IE';
-
-/** Italian language regional shortcut */
-export const IT_IT = 'it-IT';
-
-/** Japanese language regional shortcut */
-export const JA_JP = 'ja-JP';
-
-/** Kannada language regional shortcut */
-export const KN_IN = 'kn-IN';
-
-/** Kazakh language regional shortcut */
-export const KK_KZ = 'kk-KZ';
-
-/** Khmer language regional shortcut */
-export const KM_KH = 'km-KH';
-
-/** Korean language regional shortcut */
-export const KO_KR = 'ko-KR';
-
-/** Lao language regional shortcut */
-export const LO_LA = 'lo-LA';
-
-/** Latvian language regional shortcut */
-export const LV_LV = 'lv-LV';
-
-/** Lithuanian language regional shortcut */
-export const LT_LT = 'lt-LT';
-
-/** Luxembourgish language regional shortcut */
-export const LB_LU = 'lb-LU';
-
-/** Macedonian language regional shortcut */
-export const MK_MK = 'mk-MK';
-
-/** Malay language regional shortcut */
-export const MS_MY = 'ms-MY';
-/** Singaporean Malay language regional shortcut */
-export const MS_SG = 'ms-SG';
-/** Malay languages regional shortcuts */
-export const MS_LIST = [MS_MY, MS_SG] as const;
-
-/** Malayalam language regional shortcut */
-export const ML_IN = 'ml-IN';
-
-/** Maltese language regional shortcut */
-export const MT_MT = 'mt-MT';
-
-/** Marathi language regional shortcut */
-export const MR_IN = 'mr-IN';
-
-/** Mongolian language regional shortcut */
-export const MN_MN = 'mn-MN';
-
-/** Nepali language regional shortcut */
-export const NE_NP = 'ne-NP';
-
-/** Norwegian Bokmål language regional shortcut */
-export const NB_NO = 'nb-NO';
-/** Norwegian Nynorsk language regional shortcut */
-export const NN_NO = 'nn-NO';
-/** Norwegian languages regional shortcuts */
-export const NO_LIST = [NB_NO, NN_NO] as const;
-
-/** Odia language regional shortcut */
-export const OR_IN = 'or-IN';
-
-/** Pashto language regional shortcut */
-export const PS_AF = 'ps-AF';
-
-/** Persian language regional shortcut */
-export const FA_IR = 'fa-IR';
-
-/** Polish language regional shortcut */
-export const PL_PL = 'pl-PL';
-
-/** Brazilian language regional shortcut */
-export const PT_BR = 'pt-BR';
-/** Portuguese language regional shortcut */
-export const PT_PT = 'pt-PT';
-/** Portuguese languages regional shortcuts */
-export const PT_LIST = [PT_BR, PT_PT] as const;
-
-/** Indian Punjabi language regional shortcut */
-export const PA_IN = 'pa-IN';
-/** Pakistani Punjabi language regional shortcut */
-export const PA_PK = 'pa-PK';
-/** Punjabi languages regional shortcuts */
-export const PA_LIST = [PA_IN, PA_PK] as const;
-
-/** Romanian language regional shortcut */
-export const RO_RO = 'ro-RO';
-
-/** Russian language regional shortcut */
-export const RU_RU = 'ru-RU';
-
-/** Serbian language regional shortcut */
-export const SR_RS = 'sr-RS';
-
-/** Sesotho language regional shortcut */
-export const ST_ZA = 'st-ZA';
-
-/** Sinhala language regional shortcut */
-export const SI_LK = 'si-LK';
-
-/** Slovak language regional shortcut */
-export const SK_SK = 'sk-SK';
-
-/** Slovenian language regional shortcut */
-export const SL_SI = 'sl-SI';
-
-/** Somali language regional shortcut */
-export const SO_SO = 'so-SO';
-
-/** Spanish language regional shortcut */
-export const ES_ES = 'es-ES';
-/** Mexican Spanish language regional shortcut */
-export const ES_MX = 'es-MX';
-/** Columbian Spanish language regional shortcut */
-export const ES_CO = 'es-CO';
-/** Argentinian Spanish language regional shortcut */
-export const ES_AR = 'es-AR';
-/** Peruvian Spanish language regional shortcut */
-export const ES_PE = 'es-PE';
-/** Chilean Spanish language regional shortcut */
-export const ES_CL = 'es-CL';
-/** Venezuelan Spanish language regional shortcut */
-export const ES_VE = 'es-VE';
-/** Ecuadorian Spanish language regional shortcut */
-export const ES_EC = 'es-EC';
-/** Costa Rica Spanish language regional shortcut */
-export const ES_CR = 'es-CR';
-/** Panama Spanish language regional shortcut */
-export const ES_PA = 'es-PA';
-/** Uruguayan Spanish language regional shortcut */
-export const ES_UY = 'es-UY';
-/** Paraguayan Spanish language regional shortcut */
-export const ES_PY = 'es-PY';
-/** Bolivian Spanish language regional shortcut */
-export const ES_BO = 'es-BO';
-/** Honduranian Spanish language regional shortcut */
-export const ES_HN = 'es-HN';
-/** Nicaraguan Spanish language regional shortcut */
-export const ES_NI = 'es-NI';
-/** Guatemalan Spanish language regional shortcut */
-export const ES_GT = 'es-GT';
-/** Salvadorian Spanish language regional shortcut */
-export const ES_SV = 'es-SV';
-/** Dominican Spanish language regional shortcut */
-export const ES_DO = 'es-DO';
-/** Cuban Spanish language regional shortcut */
-export const ES_CU = 'es-CU';
-/** Puerto Rico Spanish language regional shortcut */
-export const ES_PR = 'es-PR';
-/** American Spanish language regional shortcut */
-export const ES_US = 'es-US';
-/** Spanish languages regional shortcuts */
-export const ES_LIST = [
-  ES_ES,
-  ES_MX,
-  ES_CO,
-  ES_AR,
-  ES_PE,
-  ES_CL,
-  ES_VE,
-  ES_EC,
-  ES_CR,
-  ES_PA,
-  ES_UY,
-  ES_PY,
-  ES_BO,
-  ES_HN,
-  ES_NI,
-  ES_GT,
-  ES_SV,
-  ES_DO,
-  ES_CU,
-  ES_PR,
-  ES_US,
+export const NETHERLANDS_DUTCH_LANG_NAME_REGIONAL_SHORTCUT = 'nl-NL';
+export const FLEMISH_DUTCH_LANG_NAME_REGIONAL_SHORTCUT = 'nl-BE';
+export const DUTCH_LANG_NAME_REGIONAL_SHORTCUTS = [
+  NETHERLANDS_DUTCH_LANG_NAME_REGIONAL_SHORTCUT,
+  FLEMISH_DUTCH_LANG_NAME_REGIONAL_SHORTCUT,
 ] as const;
 
-/** Sundanese language regional shortcut */
-export const SU_ID = 'su-ID';
-
-/** Kenyan Swahili language regional shortcut */
-export const SW_KE = 'sw-KE';
-/** Tanzanian Swahili language regional shortcut */
-export const SW_TZ = 'sw-TZ';
-/** Swahili languages regional shortcuts */
-export const SW_LIST = [SW_KE, SW_TZ] as const;
-
-/** Swedish language regional shortcut */
-export const SV_SE = 'sv-SE';
-
-/** Indian Tamil language regional shortcut */
-export const TA_IN = 'ta-IN';
-/** Sri Lankan Tamil language regional shortcut */
-export const TA_LK = 'ta-LK';
-/** Tamil language regional shortcut */
-export const TA_LIST = [TA_IN, TA_LK] as const;
-
-/** Telugu language regional shortcut */
-export const TE_IN = 'te-IN';
-
-/** Thai language regional shortcut */
-export const TH_TH = 'th-TH';
-
-/** Tibetan language regional shortcut */
-export const BO_CN = 'bo-CN';
-
-/** Eritrean Tigrinya language regional shortcut */
-export const TI_ER = 'ti-ER';
-/** Ethiopian Tigrinya language regional shortcut */
-export const TI_ET = 'ti-ET';
-/** Tigrinya language regional shortcut */
-export const TI_LIST = [TI_ER, TI_ET] as const;
-
-/** Turkish language regional shortcut */
-export const TR_TR = 'tr-TR';
-
-/** Ukrainian language regional shortcut */
-export const UK_UA = 'uk-UA';
-
-/** Pakistani Urdu language regional shortcut */
-export const UR_PK = 'ur-PK';
-/** Indian Urdu language regional shortcut */
-export const UR_IN = 'ur-IN';
-/** Urdu language regional shortcut */
-export const UR_LIST = [UR_PK, UR_IN] as const;
-
-/** Uzbek language regional shortcut */
-export const UZ_UZ = 'uz-UZ';
-
-/** Vietnamese language regional shortcut */
-export const VI_VN = 'vi-VN';
-
-/** Welsh language regional shortcut */
-export const CY_GB = 'cy-GB';
-
-/** Xhosa language regional shortcut */
-export const XH_ZA = 'xh-ZA';
-
-/** Yiddish language regional shortcut */
-export const YI_ = 'yi';
-
-/** Zulu language regional shortcut */
-export const ZU_ZA = 'zu-ZA';
-
-export const REGIONALS = [
-  AF_ZA,
-  SQ_AL,
-  AR_EG,
-  AR_SA,
-  AR_DZ,
-  AR_MA,
-  AR_TN,
-  AR_LY,
-  AR_OM,
-  AR_YE,
-  AR_SD,
-  AR_QA,
-  AR_BH,
-  AR_KW,
-  AR_AE,
-  AR_IL,
-  AR_PS,
-  AR_JO,
-  AR_LB,
-  AR_MR,
-  HY_AM,
-  AZ_AZ,
-  EU_SE,
-  BE_BY,
-  BN_BD,
-  BN_IN,
-  BS_BA,
-  BG_BG,
-  CA_ES,
-  ZH_CN,
-  ZH_SG,
-  ZH_HK,
-  ZH_TW,
-  HR_HR,
-  CS_CZ,
-  DA_DK,
-  NL_NL,
-  NL_BE,
-  EN_US,
-  EN_GB,
-  EN_CA,
-  EN_AU,
-  EN_NZ,
-  EN_ZA,
-  EN_IE,
-  EN_IN,
-  EN_SG,
-  EN_MY,
-  EN_PH,
-  EN_HK,
-  EN_FJ,
-  EO_,
-  ET_EE,
-  FI_FI,
-  FR_FR,
-  FR_CA,
-  FR_BE,
-  FR_CH,
-  FR_LU,
-  FR_MA,
-  FR_TN,
-  FR_DZ,
-  FR_CM,
-  FR_CG,
-  FR_GA,
-  FR_GN,
-  FR_CI,
-  FR_ML,
-  FR_NE,
-  FR_SN,
-  FR_TD,
-  FR_TG,
-  FR_BF,
-  FR_DJ,
-  FR_LB,
-  FR_MR,
-  GL_ES,
-  KA_GE,
-  DE_DE,
-  DE_AT,
-  DE_CH,
-  EL_GR,
-  LT_LT,
-  GU_IN,
-  HT_HT,
-  HA_NG,
-  HA_NE,
-  HE_IL,
-  HI_IN,
-  HU_HU,
-  IS_IS,
-  ID_ID,
-  GA_IE,
-  IT_IT,
-  JA_JP,
-  KN_IN,
-  KK_KZ,
-  KM_KH,
-  KO_KR,
-  LO_LA,
-  LV_LV,
-  LB_LU,
-  MK_MK,
-  MS_MY,
-  MS_SG,
-  ML_IN,
-  MT_MT,
-  MR_IN,
-  MN_MN,
-  NE_NP,
-  NB_NO,
-  NN_NO,
-  OR_IN,
-  PS_AF,
-  FA_IR,
-  PL_PL,
-  PT_BR,
-  PT_PT,
-  PA_IN,
-  PA_PK,
-  RO_RO,
-  RU_RU,
-  SR_RS,
-  ST_ZA,
-  SI_LK,
-  SK_SK,
-  SL_SI,
-  SO_SO,
-  ES_ES,
-  ES_MX,
-  ES_CO,
-  ES_AR,
-  ES_PE,
-  ES_CL,
-  ES_VE,
-  ES_EC,
-  ES_CR,
-  ES_PA,
-  ES_UY,
-  ES_PY,
-  ES_BO,
-  ES_HN,
-  ES_NI,
-  ES_GT,
-  ES_SV,
-  ES_DO,
-  ES_CU,
-  ES_PR,
-  ES_US,
-  SU_ID,
-  SW_KE,
-  SW_TZ,
-  SV_SE,
-  TA_IN,
-  TA_LK,
-  TE_IN,
-  TH_TH,
-  BO_CN,
-  TI_ER,
-  TI_ET,
-  TR_TR,
-  UK_UA,
-  UR_PK,
-  UR_IN,
-  UZ_UZ,
-  VI_VN,
-  CY_GB,
-  XH_ZA,
-  YI_,
-  ZU_ZA,
+export const AMERICAN_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT = 'en-US';
+export const BRITISH_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT = 'en-GB';
+export const CANADIAN_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT = 'en-CA';
+export const AUSTRALIAN_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT = 'en-AU';
+export const NEW_ZEALAND_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT = 'en-NZ';
+export const SOUTH_AFRICAN_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT = 'en-ZA';
+export const IRISH_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT = 'en-IE';
+export const INDIAN_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT = 'en-IN';
+export const SINGAPORE_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT = 'en-SG';
+export const MALAYSIAN_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT = 'en-MY';
+export const PHILIPPIAN_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT = 'en-PH';
+export const HONG_KONG_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT = 'en-HK';
+export const FIJIAN_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT = 'en-FJ';
+export const ENGLISH_LANG_NAME_REGIONAL_SHORTCUTS = [
+  AMERICAN_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  BRITISH_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  CANADIAN_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  AUSTRALIAN_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  NEW_ZEALAND_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  SOUTH_AFRICAN_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  IRISH_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  INDIAN_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  SINGAPORE_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  MALAYSIAN_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  PHILIPPIAN_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  HONG_KONG_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  FIJIAN_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
 ] as const;
 
-export const REGIONALS_GROUPED = [
-  AF_ZA,
-  SQ_AL,
-  AR_LIST,
-  HY_AM,
-  AZ_AZ,
-  EU_SE,
-  BE_BY,
-  BN_LIST,
-  BS_BA,
-  BG_BG,
-  CA_ES,
-  ZH_LIST,
-  HR_HR,
-  CS_CZ,
-  DA_DK,
-  NL_LIST,
-  EN_LIST,
-  EO_,
-  ET_EE,
-  FI_FI,
-  FR_LIST,
-  GL_ES,
-  KA_GE,
-  DE_LIST,
-  EL_GR,
-  GU_IN,
-  HT_HT,
-  HA_LIST,
-  HE_IL,
-  HI_IN,
-  HU_HU,
-  IS_IS,
-  ID_ID,
-  GA_IE,
-  IT_IT,
-  JA_JP,
-  KN_IN,
-  KK_KZ,
-  KM_KH,
-  KO_KR,
-  LO_LA,
-  LV_LV,
-  LB_LU,
-  MK_MK,
-  LT_LT,
-  MS_LIST,
-  ML_IN,
-  MT_MT,
-  MR_IN,
-  MN_MN,
-  NE_NP,
-  NO_LIST,
-  OR_IN,
-  PS_AF,
-  FA_IR,
-  PL_PL,
-  PT_LIST,
-  PA_LIST,
-  RO_RO,
-  RU_RU,
-  SR_RS,
-  ST_ZA,
-  SI_LK,
-  SK_SK,
-  SL_SI,
-  SO_SO,
-  ES_LIST,
-  SU_ID,
-  SW_LIST,
-  SV_SE,
-  TA_LIST,
-  TE_IN,
-  TH_TH,
-  BO_CN,
-  TI_LIST,
-  TR_TR,
-  UK_UA,
-  UR_LIST,
-  UZ_UZ,
-  VI_VN,
-  CY_GB,
-  XH_ZA,
-  YI_,
-  ZU_ZA,
+export const ESPERANTO_LANG_NAME_REGIONAL_SHORTCUT = 'eo';
+
+export const ESTONIAN_LANG_NAME_REGIONAL_SHORTCUT = 'et-EE';
+
+export const FINNISH_LANG_NAME_REGIONAL_SHORTCUT = 'fi-FI';
+
+export const FRENCH_LANG_NAME_REGIONAL_SHORTCUT = 'fr-FR';
+export const CANADIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT = 'fr-CA';
+export const BELGIUM_FRENCH_LANG_NAME_REGIONAL_SHORTCUT = 'fr-BE';
+export const SWISS_FRENCH_LANG_NAME_REGIONAL_SHORTCUT = 'fr-CH';
+export const LUXEMBOURGIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT = 'fr-LU';
+export const MOROCCAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT = 'fr-MA';
+export const TUNISIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT = 'fr-TN';
+export const ALGERIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT = 'fr-DZ';
+export const CAMEROONIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT = 'fr-CM';
+export const CONGOLESE_FRENCH_LANG_NAME_REGIONAL_SHORTCUT = 'fr-CG';
+export const GAMBIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT = 'fr-GA';
+export const GUINEAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT = 'fr-GN';
+export const IVORY_COAST_FRENCH_LANG_NAME_REGIONAL_SHORTCUT = 'fr-CI';
+export const MALIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT = 'fr-ML';
+export const NIGERIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT = 'fr-NE';
+export const SENEGALESE_FRENCH_LANG_NAME_REGIONAL_SHORTCUT = 'fr-SN';
+export const CHADIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT = 'fr-TD';
+export const TOGOLESE_FRENCH_LANG_NAME_REGIONAL_SHORTCUT = 'fr-TG';
+export const BURKINA_FASO_FRENCH_LANG_NAME_REGIONAL_SHORTCUT = 'fr-BF';
+export const DJIBOUTI_FRENCH_LANG_NAME_REGIONAL_SHORTCUT = 'fr-DJ';
+export const LEBANON_FRENCH_LANG_NAME_REGIONAL_SHORTCUT = 'fr-LB';
+export const MAURITANIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT = 'fr-MR';
+export const FRENCH_LANG_NAME_REGIONAL_SHORTCUTS = [
+  FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  CANADIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  BELGIUM_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  SWISS_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  LUXEMBOURGIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  MOROCCAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  TUNISIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  ALGERIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  CAMEROONIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  CONGOLESE_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  GAMBIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  GUINEAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  IVORY_COAST_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  MALIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  NIGERIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  SENEGALESE_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  CHADIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  TOGOLESE_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  BURKINA_FASO_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  DJIBOUTI_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  LEBANON_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  MAURITANIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
 ] as const;
 
-export type Regional = (typeof REGIONALS)[number];
+export const GALICIAN_LANG_NAME_REGIONAL_SHORTCUT = 'gl-ES';
 
-export type RegionalGrouped = (typeof REGIONALS_GROUPED)[number];
+export const GEORGIAN_LANG_NAME_REGIONAL_SHORTCUT = 'ka-GE';
+
+export const GERMAN_LANG_NAME_REGIONAL_SHORTCUT = 'de-DE';
+export const AUSTRIAN_GERMAN_LANG_NAME_REGIONAL_SHORTCUT = 'de-AT';
+export const SWISS_GERMAN_LANG_NAME_REGIONAL_SHORTCUT = 'de-CH';
+export const GERMAN_LANG_NAME_REGIONAL_SHORTCUTS = [
+  GERMAN_LANG_NAME_REGIONAL_SHORTCUT,
+  AUSTRIAN_GERMAN_LANG_NAME_REGIONAL_SHORTCUT,
+  SWISS_GERMAN_LANG_NAME_REGIONAL_SHORTCUT,
+] as const;
+
+export const GREEK_LANG_NAME_REGIONAL_SHORTCUT = 'el-GR';
+
+export const GUJARATI_LANG_NAME_REGIONAL_SHORTCUT = 'gu-IN';
+
+export const HAITIAN_LANG_NAME_REGIONAL_SHORTCUT = 'ht-HT';
+
+export const NIGERIA_HAUSA_LANG_NAME_REGIONAL_SHORTCUT = 'ha-NG';
+export const NIGER_HAUSA_LANG_NAME_REGIONAL_SHORTCUT = 'ha-NE';
+export const HAUSA_LANG_NAME_REGIONAL_SHORTCUTS = [
+  NIGERIA_HAUSA_LANG_NAME_REGIONAL_SHORTCUT,
+  NIGER_HAUSA_LANG_NAME_REGIONAL_SHORTCUT,
+] as const;
+
+export const HEBREW_LANG_NAME_REGIONAL_SHORTCUT = 'he-IL';
+
+export const HINDI_LANG_NAME_REGIONAL_SHORTCUT = 'hi-IN';
+
+export const HUNGARIAN_LANG_NAME_REGIONAL_SHORTCUT = 'hu-HU';
+
+export const ICELANDIC_LANG_NAME_REGIONAL_SHORTCUT = 'is-IS';
+
+export const INDONESIAN_LANG_NAME_REGIONAL_SHORTCUT = 'id-ID';
+
+export const IRISH_LANG_NAME_REGIONAL_SHORTCUT = 'ga-IE';
+
+export const ITALIAN_LANG_NAME_REGIONAL_SHORTCUT = 'it-IT';
+
+export const JAPANESE_LANG_NAME_REGIONAL_SHORTCUT = 'ja-JP';
+
+export const KANNADA_LANG_NAME_REGIONAL_SHORTCUT = 'kn-IN';
+
+export const KAZAKH_LANG_NAME_REGIONAL_SHORTCUT = 'kk-KZ';
+
+export const KHMER_LANG_NAME_REGIONAL_SHORTCUT = 'km-KH';
+
+export const KOREAN_LANG_NAME_REGIONAL_SHORTCUT = 'ko-KR';
+
+export const LAO_LANG_NAME_REGIONAL_SHORTCUT = 'lo-LA';
+
+export const LATVIAN_LANG_NAME_REGIONAL_SHORTCUT = 'lv-LV';
+
+export const LITHUANIAN_LANG_NAME_REGIONAL_SHORTCUT = 'lt-LT';
+
+export const LUXEMBOURGISH_LANG_NAME_REGIONAL_SHORTCUT = 'lb-LU';
+
+export const MACEDONIAN_LANG_NAME_REGIONAL_SHORTCUT = 'mk-MK';
+
+export const MALAY_LANG_NAME_REGIONAL_SHORTCUT = 'ms-MY';
+export const SINGAPOREAN_MALAY_LANG_NAME_REGIONAL_SHORTCUT = 'ms-SG';
+export const MALAY_LANG_NAME_REGIONAL_SHORTCUTS = [
+  MALAY_LANG_NAME_REGIONAL_SHORTCUT,
+  SINGAPOREAN_MALAY_LANG_NAME_REGIONAL_SHORTCUT,
+] as const;
+
+export const MALAYALAM_LANG_NAME_REGIONAL_SHORTCUT = 'ml-IN';
+
+export const MALTESE_LANG_NAME_REGIONAL_SHORTCUT = 'mt-MT';
+
+export const MARATHI_LANG_NAME_REGIONAL_SHORTCUT = 'mr-IN';
+
+export const MONGOLIAN_LANG_NAME_REGIONAL_SHORTCUT = 'mn-MN';
+
+export const NEPALI_LANG_NAME_REGIONAL_SHORTCUT = 'ne-NP';
+
+export const NORWEGIAN_BOKM_LANG_NAME_REGIONAL_SHORTCUT = 'nb-NO';
+export const NORWEGIAN_NYNORSK_LANG_NAME_REGIONAL_SHORTCUT = 'nn-NO';
+export const NORWEGIAN_LANG_NAME_REGIONAL_SHORTCUTS = [
+  NORWEGIAN_BOKM_LANG_NAME_REGIONAL_SHORTCUT,
+  NORWEGIAN_NYNORSK_LANG_NAME_REGIONAL_SHORTCUT,
+] as const;
+
+export const ODIA_LANG_NAME_REGIONAL_SHORTCUT = 'or-IN';
+
+export const PASHTO_LANG_NAME_REGIONAL_SHORTCUT = 'ps-AF';
+
+export const PERSIAN_LANG_NAME_REGIONAL_SHORTCUT = 'fa-IR';
+
+export const POLISH_LANG_NAME_REGIONAL_SHORTCUT = 'pl-PL';
+
+export const BRAZILIAN_LANG_NAME_REGIONAL_SHORTCUT = 'pt-BR';
+export const PORTUGUESE_LANG_NAME_REGIONAL_SHORTCUT = 'pt-PT';
+export const PORTUGUESE_LANG_NAME_REGIONAL_SHORTCUTS = [
+  BRAZILIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  PORTUGUESE_LANG_NAME_REGIONAL_SHORTCUT,
+] as const;
+
+export const INDIAN_PUNJABI_LANG_NAME_REGIONAL_SHORTCUT = 'pa-IN';
+export const PAKISTANI_PUNJABI_LANG_NAME_REGIONAL_SHORTCUT = 'pa-PK';
+export const PUNJABI_LANG_NAME_REGIONAL_SHORTCUTS = [
+  INDIAN_PUNJABI_LANG_NAME_REGIONAL_SHORTCUT,
+  PAKISTANI_PUNJABI_LANG_NAME_REGIONAL_SHORTCUT,
+] as const;
+
+export const ROMANIAN_LANG_NAME_REGIONAL_SHORTCUT = 'ro-RO';
+
+export const RUSSIAN_LANG_NAME_REGIONAL_SHORTCUT = 'ru-RU';
+
+export const SERBIAN_LANG_NAME_REGIONAL_SHORTCUT = 'sr-RS';
+
+export const SESOTHO_LANG_NAME_REGIONAL_SHORTCUT = 'st-ZA';
+
+export const SINHALA_LANG_NAME_REGIONAL_SHORTCUT = 'si-LK';
+
+export const SLOVAK_LANG_NAME_REGIONAL_SHORTCUT = 'sk-SK';
+
+export const SLOVENIAN_LANG_NAME_REGIONAL_SHORTCUT = 'sl-SI';
+
+export const SOMALI_LANG_NAME_REGIONAL_SHORTCUT = 'so-SO';
+
+export const SPANISH_LANG_NAME_REGIONAL_SHORTCUT = 'es-ES';
+export const MEXICAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT = 'es-MX';
+export const COLUMBIAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT = 'es-CO';
+export const ARGENTINIAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT = 'es-AR';
+export const PERUVIAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT = 'es-PE';
+export const CHILEAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT = 'es-CL';
+export const VENEZUELAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT = 'es-VE';
+export const ECUADORIAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT = 'es-EC';
+export const COSTA_RICA_SPANISH_LANG_NAME_REGIONAL_SHORTCUT = 'es-CR';
+export const PANAMA_SPANISH_LANG_NAME_REGIONAL_SHORTCUT = 'es-PA';
+export const URUGUAYAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT = 'es-UY';
+export const PARAGUAYAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT = 'es-PY';
+export const BOLIVIAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT = 'es-BO';
+export const HONDURANIAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT = 'es-HN';
+export const NICARAGUAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT = 'es-NI';
+export const GUATEMALAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT = 'es-GT';
+export const SALVADORIAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT = 'es-SV';
+export const DOMINICAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT = 'es-DO';
+export const CUBAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT = 'es-CU';
+export const PUERTO_RICO_SPANISH_LANG_NAME_REGIONAL_SHORTCUT = 'es-PR';
+export const AMERICAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT = 'es-US';
+export const SPANISH_LANG_NAME_REGIONAL_SHORTCUTS = [
+  SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  MEXICAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  COLUMBIAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  ARGENTINIAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  PERUVIAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  CHILEAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  VENEZUELAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  ECUADORIAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  COSTA_RICA_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  PANAMA_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  URUGUAYAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  PARAGUAYAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  BOLIVIAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  HONDURANIAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  NICARAGUAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  GUATEMALAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  SALVADORIAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  DOMINICAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  CUBAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  PUERTO_RICO_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  AMERICAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+] as const;
+
+export const SUNDANESE_LANG_NAME_REGIONAL_SHORTCUT = 'su-ID';
+
+export const KENYAN_SWAHILI_LANG_NAME_REGIONAL_SHORTCUT = 'sw-KE';
+export const TANZANIAN_SWAHILI_LANG_NAME_REGIONAL_SHORTCUT = 'sw-TZ';
+export const SWAHILI_LANG_NAME_REGIONAL_SHORTCUTS = [
+  KENYAN_SWAHILI_LANG_NAME_REGIONAL_SHORTCUT,
+  TANZANIAN_SWAHILI_LANG_NAME_REGIONAL_SHORTCUT,
+] as const;
+
+export const SWEDISH_LANG_NAME_REGIONAL_SHORTCUT = 'sv-SE';
+
+export const INDIAN_TAMIL_LANG_NAME_REGIONAL_SHORTCUT = 'ta-IN';
+export const SRI_LANKAN_TAMIL_LANG_NAME_REGIONAL_SHORTCUT = 'ta-LK';
+export const TAMIL_LANG_NAME_REGIONAL_SHORTCUTS = [
+  INDIAN_TAMIL_LANG_NAME_REGIONAL_SHORTCUT,
+  SRI_LANKAN_TAMIL_LANG_NAME_REGIONAL_SHORTCUT,
+] as const;
+
+export const TELUGU_LANG_NAME_REGIONAL_SHORTCUT = 'te-IN';
+
+export const THAI_LANG_NAME_REGIONAL_SHORTCUT = 'th-TH';
+
+export const TIBETAN_LANG_NAME_REGIONAL_SHORTCUT = 'bo-CN';
+
+export const ERITREAN_TIGRINYA_LANG_NAME_REGIONAL_SHORTCUT = 'ti-ER';
+export const ETHIOPIAN_TIGRINYA_LANG_NAME_REGIONAL_SHORTCUT = 'ti-ET';
+export const TIGRINYA_LANG_NAME_REGIONAL_SHORTCUTS = [
+  ERITREAN_TIGRINYA_LANG_NAME_REGIONAL_SHORTCUT,
+  ETHIOPIAN_TIGRINYA_LANG_NAME_REGIONAL_SHORTCUT,
+] as const;
+
+export const TURKISH_LANG_NAME_REGIONAL_SHORTCUT = 'tr-TR';
+
+export const UKRAINIAN_LANG_NAME_REGIONAL_SHORTCUT = 'uk-UA';
+
+export const PAKISTANI_URDU_LANG_NAME_REGIONAL_SHORTCUT = 'ur-PK';
+export const INDIAN_URDU_LANG_NAME_REGIONAL_SHORTCUT = 'ur-IN';
+export const URDU_LANG_NAME_REGIONAL_SHORTCUTS = [
+  PAKISTANI_URDU_LANG_NAME_REGIONAL_SHORTCUT,
+  INDIAN_URDU_LANG_NAME_REGIONAL_SHORTCUT,
+] as const;
+
+export const UZBEK_LANG_NAME_REGIONAL_SHORTCUT = 'uz-UZ';
+
+export const VIETNAMESE_LANG_NAME_REGIONAL_SHORTCUT = 'vi-VN';
+
+export const WELSH_LANG_NAME_REGIONAL_SHORTCUT = 'cy-GB';
+
+export const XHOSA_LANG_NAME_REGIONAL_SHORTCUT = 'xh-ZA';
+
+export const YIDDISH_LANG_NAME_REGIONAL_SHORTCUT = 'yi';
+
+export const ZULU_LANG_NAME_REGIONAL_SHORTCUT = 'zu-ZA';
+
+export const LANG_REGIONALS_SHORTCUTS = [
+  SOUTH_AFRICAN_LANG_NAME_REGIONAL_SHORTCUT,
+  ALBANIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  EGYPTIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  SAUDI_ARABIC_LANG_NAME_REGIONAL_SHORTCUT,
+  ALGERIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  MOROCCAN_LANG_NAME_REGIONAL_SHORTCUT,
+  TUNISIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  LIBYAN_LANG_NAME_REGIONAL_SHORTCUT,
+  OMANI_LANG_NAME_REGIONAL_SHORTCUT,
+  YEMENI_LANG_NAME_REGIONAL_SHORTCUT,
+  SUDANIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  QATARI_LANG_NAME_REGIONAL_SHORTCUT,
+  BAHRAINI_LANG_NAME_REGIONAL_SHORTCUT,
+  KUWAITI_LANG_NAME_REGIONAL_SHORTCUT,
+  EMIRATI_LANG_NAME_REGIONAL_SHORTCUT,
+  ISRAELI_LANG_NAME_REGIONAL_SHORTCUT,
+  PALESTINIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  JORDANIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  LEBANESE_LANG_NAME_REGIONAL_SHORTCUT,
+  MAURITANIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  ARMENIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  AZERBAIJANI_LANG_NAME_REGIONAL_SHORTCUT,
+  BASQUE_LANG_NAME_REGIONAL_SHORTCUT,
+  BELARUSIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  BANGLADESHI_BENGALI_LANG_NAME_REGIONAL_SHORTCUT,
+  INDIAN_BENGALI_LANG_NAME_REGIONAL_SHORTCUT,
+  BOSNIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  BULGARIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  CATALAN_LANG_NAME_REGIONAL_SHORTCUT,
+  SIMPLIFIED_CHINESE_LANG_NAME_REGIONAL_SHORTCUT,
+  SINGAPORE_CHINESE_LANG_NAME_REGIONAL_SHORTCUT,
+  HONG_KONG_CHINESE_LANG_NAME_REGIONAL_SHORTCUT,
+  TAIWAN_CHINESE_LANG_NAME_REGIONAL_SHORTCUT,
+  CROATIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  CZECH_LANG_NAME_REGIONAL_SHORTCUT,
+  DANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  NETHERLANDS_DUTCH_LANG_NAME_REGIONAL_SHORTCUT,
+  FLEMISH_DUTCH_LANG_NAME_REGIONAL_SHORTCUT,
+  AMERICAN_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  BRITISH_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  CANADIAN_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  AUSTRALIAN_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  NEW_ZEALAND_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  SOUTH_AFRICAN_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  IRISH_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  INDIAN_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  SINGAPORE_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  MALAYSIAN_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  PHILIPPIAN_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  HONG_KONG_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  FIJIAN_ENGLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  ESPERANTO_LANG_NAME_REGIONAL_SHORTCUT,
+  ESTONIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  FINNISH_LANG_NAME_REGIONAL_SHORTCUT,
+  FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  CANADIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  BELGIUM_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  SWISS_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  LUXEMBOURGIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  MOROCCAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  TUNISIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  ALGERIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  CAMEROONIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  CONGOLESE_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  GAMBIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  GUINEAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  IVORY_COAST_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  MALIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  NIGERIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  SENEGALESE_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  CHADIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  TOGOLESE_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  BURKINA_FASO_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  DJIBOUTI_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  LEBANON_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  MAURITANIAN_FRENCH_LANG_NAME_REGIONAL_SHORTCUT,
+  GALICIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  GEORGIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  GERMAN_LANG_NAME_REGIONAL_SHORTCUT,
+  AUSTRIAN_GERMAN_LANG_NAME_REGIONAL_SHORTCUT,
+  SWISS_GERMAN_LANG_NAME_REGIONAL_SHORTCUT,
+  GREEK_LANG_NAME_REGIONAL_SHORTCUT,
+  LITHUANIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  GUJARATI_LANG_NAME_REGIONAL_SHORTCUT,
+  HAITIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  NIGERIA_HAUSA_LANG_NAME_REGIONAL_SHORTCUT,
+  NIGER_HAUSA_LANG_NAME_REGIONAL_SHORTCUT,
+  HEBREW_LANG_NAME_REGIONAL_SHORTCUT,
+  HINDI_LANG_NAME_REGIONAL_SHORTCUT,
+  HUNGARIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  ICELANDIC_LANG_NAME_REGIONAL_SHORTCUT,
+  INDONESIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  IRISH_LANG_NAME_REGIONAL_SHORTCUT,
+  ITALIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  JAPANESE_LANG_NAME_REGIONAL_SHORTCUT,
+  KANNADA_LANG_NAME_REGIONAL_SHORTCUT,
+  KAZAKH_LANG_NAME_REGIONAL_SHORTCUT,
+  KHMER_LANG_NAME_REGIONAL_SHORTCUT,
+  KOREAN_LANG_NAME_REGIONAL_SHORTCUT,
+  LAO_LANG_NAME_REGIONAL_SHORTCUT,
+  LATVIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  LUXEMBOURGISH_LANG_NAME_REGIONAL_SHORTCUT,
+  MACEDONIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  MALAY_LANG_NAME_REGIONAL_SHORTCUT,
+  SINGAPOREAN_MALAY_LANG_NAME_REGIONAL_SHORTCUT,
+  MALAYALAM_LANG_NAME_REGIONAL_SHORTCUT,
+  MALTESE_LANG_NAME_REGIONAL_SHORTCUT,
+  MARATHI_LANG_NAME_REGIONAL_SHORTCUT,
+  MONGOLIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  NEPALI_LANG_NAME_REGIONAL_SHORTCUT,
+  NORWEGIAN_BOKM_LANG_NAME_REGIONAL_SHORTCUT,
+  NORWEGIAN_NYNORSK_LANG_NAME_REGIONAL_SHORTCUT,
+  ODIA_LANG_NAME_REGIONAL_SHORTCUT,
+  PASHTO_LANG_NAME_REGIONAL_SHORTCUT,
+  PERSIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  POLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  BRAZILIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  PORTUGUESE_LANG_NAME_REGIONAL_SHORTCUT,
+  INDIAN_PUNJABI_LANG_NAME_REGIONAL_SHORTCUT,
+  PAKISTANI_PUNJABI_LANG_NAME_REGIONAL_SHORTCUT,
+  ROMANIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  RUSSIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  SERBIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  SESOTHO_LANG_NAME_REGIONAL_SHORTCUT,
+  SINHALA_LANG_NAME_REGIONAL_SHORTCUT,
+  SLOVAK_LANG_NAME_REGIONAL_SHORTCUT,
+  SLOVENIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  SOMALI_LANG_NAME_REGIONAL_SHORTCUT,
+  SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  MEXICAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  COLUMBIAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  ARGENTINIAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  PERUVIAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  CHILEAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  VENEZUELAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  ECUADORIAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  COSTA_RICA_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  PANAMA_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  URUGUAYAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  PARAGUAYAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  BOLIVIAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  HONDURANIAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  NICARAGUAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  GUATEMALAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  SALVADORIAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  DOMINICAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  CUBAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  PUERTO_RICO_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  AMERICAN_SPANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  SUNDANESE_LANG_NAME_REGIONAL_SHORTCUT,
+  KENYAN_SWAHILI_LANG_NAME_REGIONAL_SHORTCUT,
+  TANZANIAN_SWAHILI_LANG_NAME_REGIONAL_SHORTCUT,
+  SWEDISH_LANG_NAME_REGIONAL_SHORTCUT,
+  INDIAN_TAMIL_LANG_NAME_REGIONAL_SHORTCUT,
+  SRI_LANKAN_TAMIL_LANG_NAME_REGIONAL_SHORTCUT,
+  TELUGU_LANG_NAME_REGIONAL_SHORTCUT,
+  THAI_LANG_NAME_REGIONAL_SHORTCUT,
+  TIBETAN_LANG_NAME_REGIONAL_SHORTCUT,
+  ERITREAN_TIGRINYA_LANG_NAME_REGIONAL_SHORTCUT,
+  ETHIOPIAN_TIGRINYA_LANG_NAME_REGIONAL_SHORTCUT,
+  TURKISH_LANG_NAME_REGIONAL_SHORTCUT,
+  UKRAINIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  PAKISTANI_URDU_LANG_NAME_REGIONAL_SHORTCUT,
+  INDIAN_URDU_LANG_NAME_REGIONAL_SHORTCUT,
+  UZBEK_LANG_NAME_REGIONAL_SHORTCUT,
+  VIETNAMESE_LANG_NAME_REGIONAL_SHORTCUT,
+  WELSH_LANG_NAME_REGIONAL_SHORTCUT,
+  XHOSA_LANG_NAME_REGIONAL_SHORTCUT,
+  YIDDISH_LANG_NAME_REGIONAL_SHORTCUT,
+  ZULU_LANG_NAME_REGIONAL_SHORTCUT,
+] as const;
+
+export const GROUPED_LANG_NAME_REGIONALS_SHORTCUTS = [
+  SOUTH_AFRICAN_LANG_NAME_REGIONAL_SHORTCUT,
+  ALBANIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  ARABIC_LANG_NAME_REGIONAL_SHORTCUTS,
+  ARMENIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  AZERBAIJANI_LANG_NAME_REGIONAL_SHORTCUT,
+  BASQUE_LANG_NAME_REGIONAL_SHORTCUT,
+  BELARUSIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  BENGALI_LANG_NAME_REGIONAL_SHORTCUTS,
+  BOSNIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  BULGARIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  CATALAN_LANG_NAME_REGIONAL_SHORTCUT,
+  CHINESE_LANG_NAME_REGIONAL_SHORTCUTS,
+  CROATIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  CZECH_LANG_NAME_REGIONAL_SHORTCUT,
+  DANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  DUTCH_LANG_NAME_REGIONAL_SHORTCUTS,
+  ENGLISH_LANG_NAME_REGIONAL_SHORTCUTS,
+  ESPERANTO_LANG_NAME_REGIONAL_SHORTCUT,
+  ESTONIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  FINNISH_LANG_NAME_REGIONAL_SHORTCUT,
+  FRENCH_LANG_NAME_REGIONAL_SHORTCUTS,
+  GALICIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  GEORGIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  GERMAN_LANG_NAME_REGIONAL_SHORTCUTS,
+  GREEK_LANG_NAME_REGIONAL_SHORTCUT,
+  GUJARATI_LANG_NAME_REGIONAL_SHORTCUT,
+  HAITIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  HAUSA_LANG_NAME_REGIONAL_SHORTCUTS,
+  HEBREW_LANG_NAME_REGIONAL_SHORTCUT,
+  HINDI_LANG_NAME_REGIONAL_SHORTCUT,
+  HUNGARIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  ICELANDIC_LANG_NAME_REGIONAL_SHORTCUT,
+  INDONESIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  IRISH_LANG_NAME_REGIONAL_SHORTCUT,
+  ITALIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  JAPANESE_LANG_NAME_REGIONAL_SHORTCUT,
+  KANNADA_LANG_NAME_REGIONAL_SHORTCUT,
+  KAZAKH_LANG_NAME_REGIONAL_SHORTCUT,
+  KHMER_LANG_NAME_REGIONAL_SHORTCUT,
+  KOREAN_LANG_NAME_REGIONAL_SHORTCUT,
+  LAO_LANG_NAME_REGIONAL_SHORTCUT,
+  LATVIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  LUXEMBOURGISH_LANG_NAME_REGIONAL_SHORTCUT,
+  MACEDONIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  LITHUANIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  MALAY_LANG_NAME_REGIONAL_SHORTCUTS,
+  MALAYALAM_LANG_NAME_REGIONAL_SHORTCUT,
+  MALTESE_LANG_NAME_REGIONAL_SHORTCUT,
+  MARATHI_LANG_NAME_REGIONAL_SHORTCUT,
+  MONGOLIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  NEPALI_LANG_NAME_REGIONAL_SHORTCUT,
+  NORWEGIAN_LANG_NAME_REGIONAL_SHORTCUTS,
+  ODIA_LANG_NAME_REGIONAL_SHORTCUT,
+  PASHTO_LANG_NAME_REGIONAL_SHORTCUT,
+  PERSIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  POLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  PORTUGUESE_LANG_NAME_REGIONAL_SHORTCUTS,
+  PUNJABI_LANG_NAME_REGIONAL_SHORTCUTS,
+  ROMANIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  RUSSIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  SERBIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  SESOTHO_LANG_NAME_REGIONAL_SHORTCUT,
+  SINHALA_LANG_NAME_REGIONAL_SHORTCUT,
+  SLOVAK_LANG_NAME_REGIONAL_SHORTCUT,
+  SLOVENIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  SOMALI_LANG_NAME_REGIONAL_SHORTCUT,
+  SPANISH_LANG_NAME_REGIONAL_SHORTCUTS,
+  SUNDANESE_LANG_NAME_REGIONAL_SHORTCUT,
+  SWAHILI_LANG_NAME_REGIONAL_SHORTCUTS,
+  SWEDISH_LANG_NAME_REGIONAL_SHORTCUT,
+  TAMIL_LANG_NAME_REGIONAL_SHORTCUTS,
+  TELUGU_LANG_NAME_REGIONAL_SHORTCUT,
+  THAI_LANG_NAME_REGIONAL_SHORTCUT,
+  TIBETAN_LANG_NAME_REGIONAL_SHORTCUT,
+  TIGRINYA_LANG_NAME_REGIONAL_SHORTCUTS,
+  TURKISH_LANG_NAME_REGIONAL_SHORTCUT,
+  UKRAINIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  URDU_LANG_NAME_REGIONAL_SHORTCUTS,
+  UZBEK_LANG_NAME_REGIONAL_SHORTCUT,
+  VIETNAMESE_LANG_NAME_REGIONAL_SHORTCUT,
+  WELSH_LANG_NAME_REGIONAL_SHORTCUT,
+  XHOSA_LANG_NAME_REGIONAL_SHORTCUT,
+  YIDDISH_LANG_NAME_REGIONAL_SHORTCUT,
+  ZULU_LANG_NAME_REGIONAL_SHORTCUT,
+] as const;
+
+export type RegionalLanguageName = (typeof LANG_REGIONALS_SHORTCUTS)[number];
+
+export type GroupedRegionalLanguageName =
+  (typeof GROUPED_LANG_NAME_REGIONALS_SHORTCUTS)[number];

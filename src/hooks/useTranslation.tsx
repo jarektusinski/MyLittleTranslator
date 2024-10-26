@@ -1,13 +1,19 @@
 import { ReactNode, useContext, useEffect, useState } from 'react';
-import TranslationContext from '../context/translations/context.const';
+import TranslationContext from '../contexts/translation/TranslationContext';
+import { LanguageNameMix, TranslationProps } from '../interfaces/Translation';
+import { LanguageName, LANGUAGES_NAMES } from '../constants/languages/names';
 import {
-  LanguageNameMix,
-  TranslationProps,
-} from '../interfaces/translations/schema.interface';
-import { Name, NAMES } from '../constants/languages/names';
-import { Shortcut, SHORTCUTS } from '../constants/languages/shortcuts';
-import { Regional, REGIONALS } from '../constants/languages/regionals';
-import { LanguageProps, LANGUAGES } from '../constants/languages/languages';
+  LanguageNameShortcut,
+  LANGUAGE_NAMES_SHORTCUTS,
+} from '../constants/languages/shortcuts';
+import {
+  RegionalLanguageName,
+  LANG_REGIONALS_SHORTCUTS,
+} from '../constants/languages/regionals';
+import {
+  LanguageDataProps,
+  LANGUAGES_DATA,
+} from '../constants/languages/languages';
 
 interface Options {
   [key: string]: ReactNode;
@@ -21,7 +27,7 @@ const useTranslation = (language?: LanguageNameMix) => {
     );
   }
 
-  const [getLangsProps, setLangsProps] = useState<LanguageProps[]>([]);
+  const [getLangsProps, setLangsProps] = useState<LanguageDataProps[]>([]);
   const [getChosenLang, setChosenLang] = useState<LanguageNameMix | undefined>(
     undefined
   );
@@ -29,9 +35,9 @@ const useTranslation = (language?: LanguageNameMix) => {
   const { translation: transData } = translation;
 
   const checkIfLangTypeIsWrong = (lang: string) =>
-    !SHORTCUTS.includes(lang as Shortcut) &&
-    !REGIONALS.includes(lang as Regional) &&
-    !NAMES.includes(lang as Name);
+    !LANGUAGE_NAMES_SHORTCUTS.includes(lang as LanguageNameShortcut) &&
+    !LANG_REGIONALS_SHORTCUTS.includes(lang as RegionalLanguageName) &&
+    !LANGUAGES_NAMES.includes(lang as LanguageName);
 
   const throwExceptionIfLangTypeError = (lang: string) => {
     if (checkIfLangTypeIsWrong(lang)) {
@@ -45,7 +51,7 @@ const useTranslation = (language?: LanguageNameMix) => {
       const tranProps =
         transData?.[prop.name] ||
         transData?.[prop.shortcut] ||
-        transData?.[prop.regional as Regional];
+        transData?.[prop.regional as RegionalLanguageName];
 
       if (tranProps && key in tranProps) {
         transProps.push(tranProps[key]);
@@ -138,7 +144,7 @@ const useTranslation = (language?: LanguageNameMix) => {
         ...[translation.defaultLang].flat(),
       ].map(
         (lang) =>
-          LANGUAGES.find((langObj) =>
+          LANGUAGES_DATA.find((langObj) =>
             [langObj.name, langObj.shortcut, langObj.regional].includes(lang)
           )!
       )

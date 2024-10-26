@@ -1,7 +1,7 @@
 import { FC, ReactNode, useMemo } from 'react';
-import Translation, { TranslationProps } from './context.const';
+import Translation, { TranslationContextProps } from './TranslationContext';
 
-interface TranslationProviderProps extends TranslationProps {
+interface TranslationProviderProps extends TranslationContextProps {
   children: ReactNode;
 }
 

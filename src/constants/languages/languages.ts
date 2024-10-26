@@ -1,264 +1,264 @@
 import {
-  AFRIKAANS,
-  ALBANIAN,
-  ARABIC,
-  ARMENIAN,
-  AZERBAIJANI,
-  BASQUE,
-  BELARUSIAN,
-  BENGALI,
-  BOSNIAN,
-  BULGARIAN,
-  CATALAN,
-  CHINESE,
-  CROATIAN,
-  CZECH,
-  DANISH,
-  DUTCH,
-  ENGLISH,
-  ESPERANTO,
-  ESTONIAN,
-  FINNISH,
-  FRENCH,
-  GALICIAN,
-  GEORGIAN,
-  GERMAN,
-  GREEK,
-  GUJARATI,
-  HAITIAN,
-  HAUSA,
-  HEBREW,
-  HINDI,
-  HUNGARIAN,
-  ICELANDIC,
-  INDONESIAN,
-  IRISH,
-  ITALIAN,
-  JAPANESE,
-  KANNADA,
-  KAZAKH,
-  KHMER,
-  KOREAN,
-  LAO,
-  LATVIAN,
-  LITHUANIAN,
-  LUXEMBOURGISH,
-  MACEDONIAN,
-  MALAY,
-  MALAYALAM,
-  MALTESE,
-  MARATHI,
-  MONGOLIAN,
-  Name,
-  NEPALI,
-  NORWEGIAN,
-  ODIA,
-  PASHTO,
-  PERSIAN,
-  POLISH,
-  PORTUGUESE,
-  PUNJABI,
-  ROMANIAN,
-  RUSSIAN,
-  SERBIAN,
-  SESOTHO,
-  SINHALA,
-  SLOVAK,
-  SLOVENIAN,
-  SOMALI,
-  SPANISH,
-  SUNDANESE,
-  SWAHILI,
-  SWEDISH,
-  TAMIL,
-  TELUGU,
-  THAI,
-  TIBETAN,
-  TIGRINYA,
-  TURKISH,
-  UKRAINIAN,
-  URDU,
-  UZBEK,
-  VIETNAMESE,
-  WELSH,
-  XHOSA,
-  YIDDISH,
-  ZULU,
+  AFRIKAANS_LANG_NAME,
+  ALBANIAN_LANG_NAME,
+  ARABIC_LANG_NAME,
+  ARMENIAN_LANG_NAME,
+  AZERBAIJANI_LANG_NAME,
+  BASQUE_LANG_NAME,
+  BELARUSIAN_LANG_NAME,
+  BENGALI_LANG_NAME,
+  BOSNIAN_LANG_NAME,
+  BULGARIAN_LANG_NAME,
+  CATALAN_LANG_NAME,
+  CHINESE_LANG_NAME,
+  CROATIAN_LANG_NAME,
+  CZECH_LANG_NAME,
+  DANISH_LANG_NAME,
+  DUTCH_LANG_NAME,
+  ENGLISH_LANG_NAME,
+  ESPERANTO_LANG_NAME,
+  ESTONIAN_LANG_NAME,
+  FINNISH_LANG_NAME,
+  FRENCH_LANG_NAME,
+  GALICIAN_LANG_NAME,
+  GEORGIAN_LANG_NAME,
+  GERMAN_LANG_NAME,
+  GREEK_LANG_NAME,
+  GUJARATI_LANG_NAME,
+  HAITIAN_LANG_NAME,
+  HAUSA_LANG_NAME,
+  HEBREW_LANG_NAME,
+  HINDI_LANG_NAME,
+  HUNGARIAN_LANG_NAME,
+  ICELANDIC_LANG_NAME,
+  INDONESIAN_LANG_NAME,
+  IRISH_LANG_NAME,
+  ITALIAN_LANG_NAME,
+  JAPANESE_LANG_NAME,
+  KANNADA_LANG_NAME,
+  KAZAKH_LANG_NAME,
+  KHMER_LANG_NAME,
+  KOREAN_LANG_NAME,
+  LAO_LANG_NAME,
+  LATVIAN_LANG_NAME,
+  LITHUANIAN_LANG_NAME,
+  LUXEMBOURGISH_LANG_NAME,
+  MACEDONIAN_LANG_NAME,
+  MALAY_LANG_NAME,
+  MALAYALAM_LANG_NAME,
+  MALTESE_LANG_NAME,
+  MARATHI_LANG_NAME,
+  MONGOLIAN_LANG_NAME,
+  LanguageName,
+  NEPALI_LANG_NAME,
+  NORWEGIAN_LANG_NAME,
+  ODIA_LANG_NAME,
+  PASHTO_LANG_NAME,
+  PERSIAN_LANG_NAME,
+  POLISH_LANG_NAME,
+  PORTUGUESE_LANG_NAME,
+  PUNJABI_LANG_NAME,
+  ROMANIAN_LANG_NAME,
+  RUSSIAN_LANG_NAME,
+  SERBIAN_LANG_NAME,
+  SESOTHO_LANG_NAME,
+  SINHALA_LANG_NAME,
+  SLOVAK_LANG_NAME,
+  SLOVENIAN_LANG_NAME,
+  SOMALI_LANG_NAME,
+  SPANISH_LANG_NAME,
+  SUNDANESE_LANG_NAME,
+  SWAHILI_LANG_NAME,
+  SWEDISH_LANG_NAME,
+  TAMIL_LANG_NAME,
+  TELUGU_LANG_NAME,
+  THAI_LANG_NAME,
+  TIBETAN_LANG_NAME,
+  TIGRINYA_LANG_NAME,
+  TURKISH_LANG_NAME,
+  UKRAINIAN_LANG_NAME,
+  URDU_LANG_NAME,
+  UZBEK_LANG_NAME,
+  VIETNAMESE_LANG_NAME,
+  WELSH_LANG_NAME,
+  XHOSA_LANG_NAME,
+  YIDDISH_LANG_NAME,
+  ZULU_LANG_NAME,
 } from './names';
 import {
-  AF_ZA,
-  AR_LIST,
-  AZ_AZ,
-  BE_BY,
-  BG_BG,
-  BN_LIST,
-  BO_CN,
-  BS_BA,
-  CA_ES,
-  CS_CZ,
-  CY_GB,
-  DA_DK,
-  DE_LIST,
-  EL_GR,
-  EN_LIST,
-  EO_,
-  ES_LIST,
-  ET_EE,
-  EU_SE,
-  FA_IR,
-  FI_FI,
-  FR_LIST,
-  GA_IE,
-  GL_ES,
-  GU_IN,
-  HA_LIST,
-  HE_IL,
-  HI_IN,
-  HR_HR,
-  HT_HT,
-  HU_HU,
-  HY_AM,
-  ID_ID,
-  IS_IS,
-  IT_IT,
-  JA_JP,
-  KA_GE,
-  KK_KZ,
-  KM_KH,
-  KN_IN,
-  KO_KR,
-  LB_LU,
-  LO_LA,
-  LT_LT,
-  LV_LV,
-  MK_MK,
-  ML_IN,
-  MN_MN,
-  MR_IN,
-  MS_LIST,
-  MT_MT,
-  NE_NP,
-  NL_LIST,
-  NO_LIST,
-  OR_IN,
-  PA_LIST,
-  PL_PL,
-  PS_AF,
-  PT_LIST,
-  Regional,
-  RegionalGrouped,
-  RO_RO,
-  RU_RU,
-  SI_LK,
-  SK_SK,
-  SL_SI,
-  SO_SO,
-  SQ_AL,
-  SR_RS,
-  ST_ZA,
-  SU_ID,
-  SV_SE,
-  SW_LIST,
-  TA_LIST,
-  TE_IN,
-  TH_TH,
-  TI_LIST,
-  TR_TR,
-  UK_UA,
-  UR_LIST,
-  UZ_UZ,
-  VI_VN,
-  XH_ZA,
-  YI_,
-  ZH_LIST,
-  ZU_ZA,
+  SOUTH_AFRICAN_LANG_NAME_REGIONAL_SHORTCUT,
+  ARABIC_LANG_NAME_REGIONAL_SHORTCUTS,
+  AZERBAIJANI_LANG_NAME_REGIONAL_SHORTCUT,
+  BELARUSIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  BULGARIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  BENGALI_LANG_NAME_REGIONAL_SHORTCUTS,
+  TIBETAN_LANG_NAME_REGIONAL_SHORTCUT,
+  BOSNIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  CATALAN_LANG_NAME_REGIONAL_SHORTCUT,
+  CZECH_LANG_NAME_REGIONAL_SHORTCUT,
+  WELSH_LANG_NAME_REGIONAL_SHORTCUT,
+  DANISH_LANG_NAME_REGIONAL_SHORTCUT,
+  GERMAN_LANG_NAME_REGIONAL_SHORTCUTS,
+  GREEK_LANG_NAME_REGIONAL_SHORTCUT,
+  ENGLISH_LANG_NAME_REGIONAL_SHORTCUTS,
+  ESPERANTO_LANG_NAME_REGIONAL_SHORTCUT,
+  SPANISH_LANG_NAME_REGIONAL_SHORTCUTS,
+  ESTONIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  BASQUE_LANG_NAME_REGIONAL_SHORTCUT,
+  PERSIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  FINNISH_LANG_NAME_REGIONAL_SHORTCUT,
+  FRENCH_LANG_NAME_REGIONAL_SHORTCUTS,
+  IRISH_LANG_NAME_REGIONAL_SHORTCUT,
+  GALICIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  GUJARATI_LANG_NAME_REGIONAL_SHORTCUT,
+  HAUSA_LANG_NAME_REGIONAL_SHORTCUTS,
+  HEBREW_LANG_NAME_REGIONAL_SHORTCUT,
+  HINDI_LANG_NAME_REGIONAL_SHORTCUT,
+  CROATIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  HAITIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  HUNGARIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  ARMENIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  INDONESIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  ICELANDIC_LANG_NAME_REGIONAL_SHORTCUT,
+  ITALIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  JAPANESE_LANG_NAME_REGIONAL_SHORTCUT,
+  GEORGIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  KAZAKH_LANG_NAME_REGIONAL_SHORTCUT,
+  KHMER_LANG_NAME_REGIONAL_SHORTCUT,
+  KANNADA_LANG_NAME_REGIONAL_SHORTCUT,
+  KOREAN_LANG_NAME_REGIONAL_SHORTCUT,
+  LUXEMBOURGISH_LANG_NAME_REGIONAL_SHORTCUT,
+  LAO_LANG_NAME_REGIONAL_SHORTCUT,
+  LITHUANIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  LATVIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  MACEDONIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  MALAYALAM_LANG_NAME_REGIONAL_SHORTCUT,
+  MONGOLIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  MARATHI_LANG_NAME_REGIONAL_SHORTCUT,
+  MALAY_LANG_NAME_REGIONAL_SHORTCUTS,
+  MALTESE_LANG_NAME_REGIONAL_SHORTCUT,
+  NEPALI_LANG_NAME_REGIONAL_SHORTCUT,
+  DUTCH_LANG_NAME_REGIONAL_SHORTCUTS,
+  NORWEGIAN_LANG_NAME_REGIONAL_SHORTCUTS,
+  ODIA_LANG_NAME_REGIONAL_SHORTCUT,
+  PUNJABI_LANG_NAME_REGIONAL_SHORTCUTS,
+  POLISH_LANG_NAME_REGIONAL_SHORTCUT,
+  PASHTO_LANG_NAME_REGIONAL_SHORTCUT,
+  PORTUGUESE_LANG_NAME_REGIONAL_SHORTCUTS,
+  RegionalLanguageName,
+  GroupedRegionalLanguageName,
+  ROMANIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  RUSSIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  SINHALA_LANG_NAME_REGIONAL_SHORTCUT,
+  SLOVAK_LANG_NAME_REGIONAL_SHORTCUT,
+  SLOVENIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  SOMALI_LANG_NAME_REGIONAL_SHORTCUT,
+  ALBANIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  SERBIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  SESOTHO_LANG_NAME_REGIONAL_SHORTCUT,
+  SUNDANESE_LANG_NAME_REGIONAL_SHORTCUT,
+  SWEDISH_LANG_NAME_REGIONAL_SHORTCUT,
+  SWAHILI_LANG_NAME_REGIONAL_SHORTCUTS,
+  TAMIL_LANG_NAME_REGIONAL_SHORTCUTS,
+  TELUGU_LANG_NAME_REGIONAL_SHORTCUT,
+  THAI_LANG_NAME_REGIONAL_SHORTCUT,
+  TIGRINYA_LANG_NAME_REGIONAL_SHORTCUTS,
+  TURKISH_LANG_NAME_REGIONAL_SHORTCUT,
+  UKRAINIAN_LANG_NAME_REGIONAL_SHORTCUT,
+  URDU_LANG_NAME_REGIONAL_SHORTCUTS,
+  UZBEK_LANG_NAME_REGIONAL_SHORTCUT,
+  VIETNAMESE_LANG_NAME_REGIONAL_SHORTCUT,
+  XHOSA_LANG_NAME_REGIONAL_SHORTCUT,
+  YIDDISH_LANG_NAME_REGIONAL_SHORTCUT,
+  CHINESE_LANG_NAME_REGIONAL_SHORTCUTS,
+  ZULU_LANG_NAME_REGIONAL_SHORTCUT,
 } from './regionals';
 import {
-  AF,
-  SQ,
-  AR,
-  HY,
-  AZ,
-  EU,
-  BE,
-  BN,
-  BS,
-  BG,
-  CA,
-  ZH,
-  HR,
-  CS,
-  DA,
-  NL,
-  EN,
-  EO,
-  ET,
-  FI,
-  FR,
-  GL,
-  KA,
-  DE,
-  EL,
-  GU,
-  HT,
-  HA,
-  HE,
-  HI,
-  HU,
-  IS,
-  ID,
-  GA,
-  IT,
-  JA,
-  KN,
-  KK,
-  KM,
-  KO,
-  LO,
-  LV,
-  LT,
-  LB,
-  MK,
-  MS,
-  ML,
-  MT,
-  MR,
-  MN,
-  NE,
-  NO,
-  OR,
-  PS,
-  FA,
-  PL,
-  PT,
-  PA,
-  RO,
-  RU,
-  SR,
-  ST,
-  SI,
-  SK,
-  SL,
-  SO,
-  ES,
-  SU,
-  SW,
-  SV,
-  TA,
-  TE,
-  TH,
-  BO,
-  TI,
-  TR,
-  UK,
-  UR,
-  UZ,
-  VI,
-  CY,
-  XH,
-  YI,
-  ZU,
-  Shortcut,
+  AFRIKAANS_LANG_NAME_SHORTCUT,
+  ALBANIAN_LANG_NAME_SHORTCUT,
+  ARABIC_LANG_NAME_SHORTCUT,
+  ARMENIAN_LANG_NAME_SHORTCUT,
+  AZERBAIJANI_LANG_NAME_SHORTCUT,
+  BASQUE_LANG_NAME_SHORTCUT,
+  BELARUSIAN_LANG_NAME_SHORTCUT,
+  BENGALI_LANG_NAME_SHORTCUT,
+  BOSNIAN_LANG_NAME_SHORTCUT,
+  BULGARIAN_LANG_NAME_SHORTCUT,
+  CATALAN_LANG_NAME_SHORTCUT,
+  CHINESE_LANG_NAME_SHORTCUT,
+  CROATIAN_LANG_NAME_SHORTCUT,
+  CZECH_LANG_NAME_SHORTCUT,
+  DANISH_LANG_NAME_SHORTCUT,
+  DUTCH_LANG_NAME_SHORTCUT,
+  ENGLISH_LANG_NAME_SHORTCUT,
+  ESPERANTO_LANG_NAME_SHORTCUT,
+  ESTONIAN_LANG_NAME_SHORTCUT,
+  FINNISH_LANG_NAME_SHORTCUT,
+  FRENCH_LANG_NAME_SHORTCUT,
+  GALICIAN_LANG_NAME_SHORTCUT,
+  GEORGIAN_LANG_NAME_SHORTCUT,
+  GERMAN_LANG_NAME_SHORTCUT,
+  GREEK_LANG_NAME_SHORTCUT,
+  GUJARATI_LANG_NAME_SHORTCUT,
+  HAITIAN_LANG_NAME_SHORTCUT,
+  HAUSA_LANG_NAME_SHORTCUT,
+  HEBREW_LANG_NAME_SHORTCUT,
+  HINDI_LANG_NAME_SHORTCUT,
+  HUNGARIAN_LANG_NAME_SHORTCUT,
+  ICELANDIC_LANG_NAME_SHORTCUT,
+  INDONESIAN_LANG_NAME_SHORTCUT,
+  IRISH_LANG_NAME_SHORTCUT,
+  ITALIAN_LANG_NAME_SHORTCUT,
+  JAPANESE_LANG_NAME_SHORTCUT,
+  KANNADA_LANG_NAME_SHORTCUT,
+  KAZAKH_LANG_NAME_SHORTCUT,
+  KHMER_LANG_NAME_SHORTCUT,
+  KOREAN_LANG_NAME_SHORTCUT,
+  LAO_LANG_NAME_SHORTCUT,
+  LATVIAN_LANG_NAME_SHORTCUT,
+  LITHUANIAN_LANG_NAME_SHORTCUT,
+  LUXEMBOURGISH_LANG_NAME_SHORTCUT,
+  MACEDONIAN_LANG_NAME_SHORTCUT,
+  MALAY_LANG_NAME_SHORTCUT,
+  MALAYALAM_LANG_NAME_SHORTCUT,
+  MALTESE_LANG_NAME_SHORTCUT,
+  MARATHI_LANG_NAME_SHORTCUT,
+  MONGOLIAN_LANG_NAME_SHORTCUT,
+  NEPALI_LANG_NAME_SHORTCUT,
+  NORWEGIAN_LANG_NAME_SHORTCUT,
+  ODIA_LANG_NAME_SHORTCUT,
+  PASHTO_LANG_NAME_SHORTCUT,
+  PERSIAN_LANG_NAME_SHORTCUT,
+  POLISH_LANG_NAME_SHORTCUT,
+  PORTUGUESE_LANG_NAME_SHORTCUT,
+  PUNJABI_LANG_NAME_SHORTCUT,
+  ROMANIAN_LANG_NAME_SHORTCUT,
+  RUSSIAN_LANG_NAME_SHORTCUT,
+  SERBIAN_LANG_NAME_SHORTCUT,
+  SESOTHO_LANG_NAME_SHORTCUT,
+  SINHALA_LANG_NAME_SHORTCUT,
+  SLOVAK_LANG_NAME_SHORTCUT,
+  SLOVENIAN_LANG_NAME_SHORTCUT,
+  SOMALI_LANG_NAME_SHORTCUT,
+  SPANISH_LANG_NAME_SHORTCUT,
+  SUNDANESE_LANG_NAME_SHORTCUT,
+  SWAHILI_LANG_NAME_SHORTCUT,
+  SWEDISH_LANG_NAME_SHORTCUT,
+  TAMIL_LANG_NAME_SHORTCUT,
+  TELUGU_LANG_NAME_SHORTCUT,
+  THAI_LANG_NAME_SHORTCUT,
+  TIBETAN_LANG_NAME_SHORTCUT,
+  TIGRINYA_LANG_NAME_SHORTCUT,
+  TURKISH_LANG_NAME_SHORTCUT,
+  UKRAINIAN_LANG_NAME_SHORTCUT,
+  URDU_LANG_NAME_SHORTCUT,
+  UZBEK_LANG_NAME_SHORTCUT,
+  VIETNAMESE_LANG_NAME_SHORTCUT,
+  WELSH_LANG_NAME_SHORTCUT,
+  XHOSA_LANG_NAME_SHORTCUT,
+  YIDDISH_LANG_NAME_SHORTCUT,
+  ZULU_LANG_NAME_SHORTCUT,
+  LanguageNameShortcut,
 } from './shortcuts';
 
 type HorizontalOrientationType = 'left-to-right' | 'right-to-left';
@@ -271,10 +271,10 @@ interface OrientationProps {
   orientation: OrientationType;
 }
 
-export interface LanguageProps {
-  name: Name;
-  shortcut: Shortcut;
-  regional: Regional | RegionalGrouped;
+export interface LanguageDataProps {
+  name: LanguageName;
+  shortcut: LanguageNameShortcut;
+  regional: RegionalLanguageName | GroupedRegionalLanguageName;
   orientation: OrientationType | OrientationType[];
 }
 
@@ -286,683 +286,683 @@ const ARABIC_TEXT_ORIENTATION: OrientationProps = {
   orientation: { char: 'right-to-left', line: 'top-to-bottom' },
 };
 
-export const AFRIKAANS_LANG: LanguageProps = {
-  name: AFRIKAANS,
-  shortcut: AF,
-  regional: AF_ZA,
+export const AFRIKAANS_LANG_DATA: LanguageDataProps = {
+  name: AFRIKAANS_LANG_NAME,
+  shortcut: AFRIKAANS_LANG_NAME_SHORTCUT,
+  regional: SOUTH_AFRICAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const ALBANIAN_LANG: LanguageProps = {
-  name: ALBANIAN,
-  shortcut: SQ,
-  regional: SQ_AL,
+export const ALBANIAN_LANG_DATA: LanguageDataProps = {
+  name: ALBANIAN_LANG_NAME,
+  shortcut: ALBANIAN_LANG_NAME_SHORTCUT,
+  regional: ALBANIAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const ARABIC_LANG: LanguageProps = {
-  name: ARABIC,
-  shortcut: AR,
-  regional: AR_LIST,
+export const ARABIC_LANG_DATA: LanguageDataProps = {
+  name: ARABIC_LANG_NAME,
+  shortcut: ARABIC_LANG_NAME_SHORTCUT,
+  regional: ARABIC_LANG_NAME_REGIONAL_SHORTCUTS,
   ...ARABIC_TEXT_ORIENTATION,
 };
 
-export const ARMENIAN_LANG: LanguageProps = {
-  name: ARMENIAN,
-  shortcut: HY,
-  regional: HY_AM,
+export const ARMENIAN_LANG_DATA: LanguageDataProps = {
+  name: ARMENIAN_LANG_NAME,
+  shortcut: ARMENIAN_LANG_NAME_SHORTCUT,
+  regional: ARMENIAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const AZERBAIJANI_LANG: LanguageProps = {
-  name: AZERBAIJANI,
-  shortcut: AZ,
-  regional: AZ_AZ,
+export const AZERBAIJANI_LANG_DATA: LanguageDataProps = {
+  name: AZERBAIJANI_LANG_NAME,
+  shortcut: AZERBAIJANI_LANG_NAME_SHORTCUT,
+  regional: AZERBAIJANI_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const BASQUE_LANG: LanguageProps = {
-  name: BASQUE,
-  shortcut: EU,
-  regional: EU_SE,
+export const BASQUE_LANG_DATA: LanguageDataProps = {
+  name: BASQUE_LANG_NAME,
+  shortcut: BASQUE_LANG_NAME_SHORTCUT,
+  regional: BASQUE_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const BELARUSIAN_LANG: LanguageProps = {
-  name: BELARUSIAN,
-  shortcut: BE,
-  regional: BE_BY,
+export const BELARUSIAN_LANG_DATA: LanguageDataProps = {
+  name: BELARUSIAN_LANG_NAME,
+  shortcut: BELARUSIAN_LANG_NAME_SHORTCUT,
+  regional: BELARUSIAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const BENGALI_LANG: LanguageProps = {
-  name: BENGALI,
-  shortcut: BN,
-  regional: BN_LIST,
+export const BENGALI_LANG_DATA: LanguageDataProps = {
+  name: BENGALI_LANG_NAME,
+  shortcut: BENGALI_LANG_NAME_SHORTCUT,
+  regional: BENGALI_LANG_NAME_REGIONAL_SHORTCUTS,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const BOSNIAN_LANG: LanguageProps = {
-  name: BOSNIAN,
-  shortcut: BS,
-  regional: BS_BA,
+export const BOSNIAN_LANG_DATA: LanguageDataProps = {
+  name: BOSNIAN_LANG_NAME,
+  shortcut: BOSNIAN_LANG_NAME_SHORTCUT,
+  regional: BOSNIAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const BULGARIAN_LANG: LanguageProps = {
-  name: BULGARIAN,
-  shortcut: BG,
-  regional: BG_BG,
+export const BULGARIAN_LANG_DATA: LanguageDataProps = {
+  name: BULGARIAN_LANG_NAME,
+  shortcut: BULGARIAN_LANG_NAME_SHORTCUT,
+  regional: BULGARIAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const CATALAN_LANG: LanguageProps = {
-  name: CATALAN,
-  shortcut: CA,
-  regional: CA_ES,
+export const CATALAN_LANG_DATA: LanguageDataProps = {
+  name: CATALAN_LANG_NAME,
+  shortcut: CATALAN_LANG_NAME_SHORTCUT,
+  regional: CATALAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const CHINESE_LANG: LanguageProps = {
-  name: CHINESE,
-  shortcut: ZH,
-  regional: ZH_LIST,
+export const CHINESE_LANG_DATA: LanguageDataProps = {
+  name: CHINESE_LANG_NAME,
+  shortcut: CHINESE_LANG_NAME_SHORTCUT,
+  regional: CHINESE_LANG_NAME_REGIONAL_SHORTCUTS,
   orientation: [
     { char: 'left-to-right', line: 'top-to-bottom' },
     { char: 'top-to-bottom', line: 'right-to-left' },
   ],
 };
 
-export const CROATIAN_LANG: LanguageProps = {
-  name: CROATIAN,
-  shortcut: HR,
-  regional: HR_HR,
+export const CROATIAN_LANG_DATA: LanguageDataProps = {
+  name: CROATIAN_LANG_NAME,
+  shortcut: CROATIAN_LANG_NAME_SHORTCUT,
+  regional: CROATIAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const CZECH_LANG: LanguageProps = {
-  name: CZECH,
-  shortcut: CS,
-  regional: CS_CZ,
+export const CZECH_LANG_DATA: LanguageDataProps = {
+  name: CZECH_LANG_NAME,
+  shortcut: CZECH_LANG_NAME_SHORTCUT,
+  regional: CZECH_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const DANISH_LANG: LanguageProps = {
-  name: DANISH,
-  shortcut: DA,
-  regional: DA_DK,
+export const DANISH_LANG_DATA: LanguageDataProps = {
+  name: DANISH_LANG_NAME,
+  shortcut: DANISH_LANG_NAME_SHORTCUT,
+  regional: DANISH_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const DUTCH_LANG: LanguageProps = {
-  name: DUTCH,
-  shortcut: NL,
-  regional: NL_LIST,
+export const DUTCH_LANG_DATA: LanguageDataProps = {
+  name: DUTCH_LANG_NAME,
+  shortcut: DUTCH_LANG_NAME_SHORTCUT,
+  regional: DUTCH_LANG_NAME_REGIONAL_SHORTCUTS,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const ENGLISH_LANG: LanguageProps = {
-  name: ENGLISH,
-  shortcut: EN,
-  regional: EN_LIST,
+export const ENGLISH_LANG_DATA: LanguageDataProps = {
+  name: ENGLISH_LANG_NAME,
+  shortcut: ENGLISH_LANG_NAME_SHORTCUT,
+  regional: ENGLISH_LANG_NAME_REGIONAL_SHORTCUTS,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const ESPERANTO_LANG: LanguageProps = {
-  name: ESPERANTO,
-  shortcut: EO,
-  regional: EO_,
+export const ESPERANTO_LANG_DATA: LanguageDataProps = {
+  name: ESPERANTO_LANG_NAME,
+  shortcut: ESPERANTO_LANG_NAME_SHORTCUT,
+  regional: ESPERANTO_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const ESTONIAN_LANG: LanguageProps = {
-  name: ESTONIAN,
-  shortcut: ET,
-  regional: ET_EE,
+export const ESTONIAN_LANG_DATA: LanguageDataProps = {
+  name: ESTONIAN_LANG_NAME,
+  shortcut: ESTONIAN_LANG_NAME_SHORTCUT,
+  regional: ESTONIAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const FINNISH_LANG: LanguageProps = {
-  name: FINNISH,
-  shortcut: FI,
-  regional: FI_FI,
+export const FINNISH_LANG_DATA: LanguageDataProps = {
+  name: FINNISH_LANG_NAME,
+  shortcut: FINNISH_LANG_NAME_SHORTCUT,
+  regional: FINNISH_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const FRENCH_LANG: LanguageProps = {
-  name: FRENCH,
-  shortcut: FR,
-  regional: FR_LIST,
+export const FRENCH_LANG_DATA: LanguageDataProps = {
+  name: FRENCH_LANG_NAME,
+  shortcut: FRENCH_LANG_NAME_SHORTCUT,
+  regional: FRENCH_LANG_NAME_REGIONAL_SHORTCUTS,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const GALICIAN_LANG: LanguageProps = {
-  name: GALICIAN,
-  shortcut: GL,
-  regional: GL_ES,
+export const GALICIAN_LANG_DATA: LanguageDataProps = {
+  name: GALICIAN_LANG_NAME,
+  shortcut: GALICIAN_LANG_NAME_SHORTCUT,
+  regional: GALICIAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const GEORGIAN_LANG: LanguageProps = {
-  name: GEORGIAN,
-  shortcut: KA,
-  regional: KA_GE,
+export const GEORGIAN_LANG_DATA: LanguageDataProps = {
+  name: GEORGIAN_LANG_NAME,
+  shortcut: GEORGIAN_LANG_NAME_SHORTCUT,
+  regional: GEORGIAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const GERMAN_LANG: LanguageProps = {
-  name: GERMAN,
-  shortcut: DE,
-  regional: DE_LIST,
+export const GERMAN_LANG_DATA: LanguageDataProps = {
+  name: GERMAN_LANG_NAME,
+  shortcut: GERMAN_LANG_NAME_SHORTCUT,
+  regional: GERMAN_LANG_NAME_REGIONAL_SHORTCUTS,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const GREEK_LANG: LanguageProps = {
-  name: GREEK,
-  shortcut: EL,
-  regional: EL_GR,
+export const GREEK_LANG_DATA: LanguageDataProps = {
+  name: GREEK_LANG_NAME,
+  shortcut: GREEK_LANG_NAME_SHORTCUT,
+  regional: GREEK_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const GUJARATI_LANG: LanguageProps = {
-  name: GUJARATI,
-  shortcut: GU,
-  regional: GU_IN,
+export const GUJARATI_LANG_DATA: LanguageDataProps = {
+  name: GUJARATI_LANG_NAME,
+  shortcut: GUJARATI_LANG_NAME_SHORTCUT,
+  regional: GUJARATI_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const HAITIAN_LANG: LanguageProps = {
-  name: HAITIAN,
-  shortcut: HT,
-  regional: HT_HT,
+export const HAITIAN_LANG_DATA: LanguageDataProps = {
+  name: HAITIAN_LANG_NAME,
+  shortcut: HAITIAN_LANG_NAME_SHORTCUT,
+  regional: HAITIAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const HAUSA_LANG: LanguageProps = {
-  name: HAUSA,
-  shortcut: HA,
-  regional: HA_LIST,
+export const HAUSA_LANG_DATA: LanguageDataProps = {
+  name: HAUSA_LANG_NAME,
+  shortcut: HAUSA_LANG_NAME_SHORTCUT,
+  regional: HAUSA_LANG_NAME_REGIONAL_SHORTCUTS,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const HEBREW_LANG: LanguageProps = {
-  name: HEBREW,
-  shortcut: HE,
-  regional: HE_IL,
+export const HEBREW_LANG_DATA: LanguageDataProps = {
+  name: HEBREW_LANG_NAME,
+  shortcut: HEBREW_LANG_NAME_SHORTCUT,
+  regional: HEBREW_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const HINDI_LANG: LanguageProps = {
-  name: HINDI,
-  shortcut: HI,
-  regional: HI_IN,
+export const HINDI_LANG_DATA: LanguageDataProps = {
+  name: HINDI_LANG_NAME,
+  shortcut: HINDI_LANG_NAME_SHORTCUT,
+  regional: HINDI_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const HUNGARIAN_LANG: LanguageProps = {
-  name: HUNGARIAN,
-  shortcut: HU,
-  regional: HU_HU,
+export const HUNGARIAN_LANG_DATA: LanguageDataProps = {
+  name: HUNGARIAN_LANG_NAME,
+  shortcut: HUNGARIAN_LANG_NAME_SHORTCUT,
+  regional: HUNGARIAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const ICELANDIC_LANG: LanguageProps = {
-  name: ICELANDIC,
-  shortcut: IS,
-  regional: IS_IS,
+export const ICELANDIC_LANG_DATA: LanguageDataProps = {
+  name: ICELANDIC_LANG_NAME,
+  shortcut: ICELANDIC_LANG_NAME_SHORTCUT,
+  regional: ICELANDIC_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const INDONESIAN_LANG: LanguageProps = {
-  name: INDONESIAN,
-  shortcut: ID,
-  regional: ID_ID,
+export const INDONESIAN_LANG_DATA: LanguageDataProps = {
+  name: INDONESIAN_LANG_NAME,
+  shortcut: INDONESIAN_LANG_NAME_SHORTCUT,
+  regional: INDONESIAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const IRISH_LANG: LanguageProps = {
-  name: IRISH,
-  shortcut: GA,
-  regional: GA_IE,
+export const IRISH_LANG_DATA: LanguageDataProps = {
+  name: IRISH_LANG_NAME,
+  shortcut: IRISH_LANG_NAME_SHORTCUT,
+  regional: IRISH_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const ITALIAN_LANG: LanguageProps = {
-  name: ITALIAN,
-  shortcut: IT,
-  regional: IT_IT,
+export const ITALIAN_LANG_DATA: LanguageDataProps = {
+  name: ITALIAN_LANG_NAME,
+  shortcut: ITALIAN_LANG_NAME_SHORTCUT,
+  regional: ITALIAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const JAPANESE_LANG: LanguageProps = {
-  name: JAPANESE,
-  shortcut: JA,
-  regional: JA_JP,
+export const JAPANESE_LANG_DATA: LanguageDataProps = {
+  name: JAPANESE_LANG_NAME,
+  shortcut: JAPANESE_LANG_NAME_SHORTCUT,
+  regional: JAPANESE_LANG_NAME_REGIONAL_SHORTCUT,
   orientation: [
     { char: 'left-to-right', line: 'top-to-bottom' },
     { char: 'top-to-bottom', line: 'right-to-left' },
   ],
 };
 
-export const KANNADA_LANG: LanguageProps = {
-  name: KANNADA,
-  shortcut: KN,
-  regional: KN_IN,
+export const KANNADA_LANG_DATA: LanguageDataProps = {
+  name: KANNADA_LANG_NAME,
+  shortcut: KANNADA_LANG_NAME_SHORTCUT,
+  regional: KANNADA_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const KAZAKH_LANG: LanguageProps = {
-  name: KAZAKH,
-  shortcut: KK,
-  regional: KK_KZ,
+export const KAZAKH_LANG_DATA: LanguageDataProps = {
+  name: KAZAKH_LANG_NAME,
+  shortcut: KAZAKH_LANG_NAME_SHORTCUT,
+  regional: KAZAKH_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const KHMER_LANG: LanguageProps = {
-  name: KHMER,
-  shortcut: KM,
-  regional: KM_KH,
+export const KHMER_LANG_DATA: LanguageDataProps = {
+  name: KHMER_LANG_NAME,
+  shortcut: KHMER_LANG_NAME_SHORTCUT,
+  regional: KHMER_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const KOREAN_LANG: LanguageProps = {
-  name: KOREAN,
-  shortcut: KO,
-  regional: KO_KR,
+export const KOREAN_LANG_DATA: LanguageDataProps = {
+  name: KOREAN_LANG_NAME,
+  shortcut: KOREAN_LANG_NAME_SHORTCUT,
+  regional: KOREAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const LAO_LANG: LanguageProps = {
-  name: LAO,
-  shortcut: LO,
-  regional: LO_LA,
+export const LAO_LANG_DATA: LanguageDataProps = {
+  name: LAO_LANG_NAME,
+  shortcut: LAO_LANG_NAME_SHORTCUT,
+  regional: LAO_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const LATVIAN_LANG: LanguageProps = {
-  name: LATVIAN,
-  shortcut: LV,
-  regional: LV_LV,
+export const LATVIAN_LANG_DATA: LanguageDataProps = {
+  name: LATVIAN_LANG_NAME,
+  shortcut: LATVIAN_LANG_NAME_SHORTCUT,
+  regional: LATVIAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const LITHUANIAN_LANG: LanguageProps = {
-  name: LITHUANIAN,
-  shortcut: LT,
-  regional: LT_LT,
+export const LITHUANIAN_LANG_DATA: LanguageDataProps = {
+  name: LITHUANIAN_LANG_NAME,
+  shortcut: LITHUANIAN_LANG_NAME_SHORTCUT,
+  regional: LITHUANIAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const LUXEMBOURGISH_LANG: LanguageProps = {
-  name: LUXEMBOURGISH,
-  shortcut: LB,
-  regional: LB_LU,
+export const LUXEMBOURGISH_LANG_DATA: LanguageDataProps = {
+  name: LUXEMBOURGISH_LANG_NAME,
+  shortcut: LUXEMBOURGISH_LANG_NAME_SHORTCUT,
+  regional: LUXEMBOURGISH_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const MACEDONIAN_LANG: LanguageProps = {
-  name: MACEDONIAN,
-  shortcut: MK,
-  regional: MK_MK,
+export const MACEDONIAN_LANG_DATA: LanguageDataProps = {
+  name: MACEDONIAN_LANG_NAME,
+  shortcut: MACEDONIAN_LANG_NAME_SHORTCUT,
+  regional: MACEDONIAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const MALAY_LANG: LanguageProps = {
-  name: MALAY,
-  shortcut: MS,
-  regional: MS_LIST,
+export const MALAY_LANG_DATA: LanguageDataProps = {
+  name: MALAY_LANG_NAME,
+  shortcut: MALAY_LANG_NAME_SHORTCUT,
+  regional: MALAY_LANG_NAME_REGIONAL_SHORTCUTS,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const MALAYALAM_LANG: LanguageProps = {
-  name: MALAYALAM,
-  shortcut: ML,
-  regional: ML_IN,
+export const MALAYALAM_LANG_DATA: LanguageDataProps = {
+  name: MALAYALAM_LANG_NAME,
+  shortcut: MALAYALAM_LANG_NAME_SHORTCUT,
+  regional: MALAYALAM_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const MALTESE_LANG: LanguageProps = {
-  name: MALTESE,
-  shortcut: MT,
-  regional: MT_MT,
+export const MALTESE_LANG_DATA: LanguageDataProps = {
+  name: MALTESE_LANG_NAME,
+  shortcut: MALTESE_LANG_NAME_SHORTCUT,
+  regional: MALTESE_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const MARATHI_LANG: LanguageProps = {
-  name: MARATHI,
-  shortcut: MR,
-  regional: MR_IN,
+export const MARATHI_LANG_DATA: LanguageDataProps = {
+  name: MARATHI_LANG_NAME,
+  shortcut: MARATHI_LANG_NAME_SHORTCUT,
+  regional: MARATHI_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const MONGOLIAN_LANG: LanguageProps = {
-  name: MONGOLIAN,
-  shortcut: MN,
-  regional: MN_MN,
+export const MONGOLIAN_LANG_DATA: LanguageDataProps = {
+  name: MONGOLIAN_LANG_NAME,
+  shortcut: MONGOLIAN_LANG_NAME_SHORTCUT,
+  regional: MONGOLIAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const NEPALI_LANG: LanguageProps = {
-  name: NEPALI,
-  shortcut: NE,
-  regional: NE_NP,
+export const NEPALI_LANG_DATA: LanguageDataProps = {
+  name: NEPALI_LANG_NAME,
+  shortcut: NEPALI_LANG_NAME_SHORTCUT,
+  regional: NEPALI_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const NORWEGIAN_LANG: LanguageProps = {
-  name: NORWEGIAN,
-  shortcut: NO,
-  regional: NO_LIST,
+export const NORWEGIAN_LANG_DATA: LanguageDataProps = {
+  name: NORWEGIAN_LANG_NAME,
+  shortcut: NORWEGIAN_LANG_NAME_SHORTCUT,
+  regional: NORWEGIAN_LANG_NAME_REGIONAL_SHORTCUTS,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const ODIA_LANG: LanguageProps = {
-  name: ODIA,
-  shortcut: OR,
-  regional: OR_IN,
+export const ODIA_LANG_DATA: LanguageDataProps = {
+  name: ODIA_LANG_NAME,
+  shortcut: ODIA_LANG_NAME_SHORTCUT,
+  regional: ODIA_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const PASHTO_LANG: LanguageProps = {
-  name: PASHTO,
-  shortcut: PS,
-  regional: PS_AF,
+export const PASHTO_LANG_DATA: LanguageDataProps = {
+  name: PASHTO_LANG_NAME,
+  shortcut: PASHTO_LANG_NAME_SHORTCUT,
+  regional: PASHTO_LANG_NAME_REGIONAL_SHORTCUT,
   ...ARABIC_TEXT_ORIENTATION,
 };
 
-export const PERSIAN_LANG: LanguageProps = {
-  name: PERSIAN,
-  shortcut: FA,
-  regional: FA_IR,
+export const PERSIAN_LANG_DATA: LanguageDataProps = {
+  name: PERSIAN_LANG_NAME,
+  shortcut: PERSIAN_LANG_NAME_SHORTCUT,
+  regional: PERSIAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...ARABIC_TEXT_ORIENTATION,
 };
 
-export const POLISH_LANG: LanguageProps = {
-  name: POLISH,
-  shortcut: PL,
-  regional: PL_PL,
+export const POLISH_LANG_DATA: LanguageDataProps = {
+  name: POLISH_LANG_NAME,
+  shortcut: POLISH_LANG_NAME_SHORTCUT,
+  regional: POLISH_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const PORTUGUESE_LANG: LanguageProps = {
-  name: PORTUGUESE,
-  shortcut: PT,
-  regional: PT_LIST,
+export const PORTUGUESE_LANG_DATA: LanguageDataProps = {
+  name: PORTUGUESE_LANG_NAME,
+  shortcut: PORTUGUESE_LANG_NAME_SHORTCUT,
+  regional: PORTUGUESE_LANG_NAME_REGIONAL_SHORTCUTS,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const PUNJABI_LANG: LanguageProps = {
-  name: PUNJABI,
-  shortcut: PA,
-  regional: PA_LIST,
+export const PUNJABI_LANG_DATA: LanguageDataProps = {
+  name: PUNJABI_LANG_NAME,
+  shortcut: PUNJABI_LANG_NAME_SHORTCUT,
+  regional: PUNJABI_LANG_NAME_REGIONAL_SHORTCUTS,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const ROMANIAN_LANG: LanguageProps = {
-  name: ROMANIAN,
-  shortcut: RO,
-  regional: RO_RO,
+export const ROMANIAN_LANG_DATA: LanguageDataProps = {
+  name: ROMANIAN_LANG_NAME,
+  shortcut: ROMANIAN_LANG_NAME_SHORTCUT,
+  regional: ROMANIAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const RUSSIAN_LANG: LanguageProps = {
-  name: RUSSIAN,
-  shortcut: RU,
-  regional: RU_RU,
+export const RUSSIAN_LANG_DATA: LanguageDataProps = {
+  name: RUSSIAN_LANG_NAME,
+  shortcut: RUSSIAN_LANG_NAME_SHORTCUT,
+  regional: RUSSIAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const SERBIAN_LANG: LanguageProps = {
-  name: SERBIAN,
-  shortcut: SR,
-  regional: SR_RS,
+export const SERBIAN_LANG_DATA: LanguageDataProps = {
+  name: SERBIAN_LANG_NAME,
+  shortcut: SERBIAN_LANG_NAME_SHORTCUT,
+  regional: SERBIAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const SESOTHO_LANG: LanguageProps = {
-  name: SESOTHO,
-  shortcut: ST,
-  regional: ST_ZA,
+export const SESOTHO_LANG_DATA: LanguageDataProps = {
+  name: SESOTHO_LANG_NAME,
+  shortcut: SESOTHO_LANG_NAME_SHORTCUT,
+  regional: SESOTHO_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const SINHALA_LANG: LanguageProps = {
-  name: SINHALA,
-  shortcut: SI,
-  regional: SI_LK,
+export const SINHALA_LANG_DATA: LanguageDataProps = {
+  name: SINHALA_LANG_NAME,
+  shortcut: SINHALA_LANG_NAME_SHORTCUT,
+  regional: SINHALA_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const SLOVAK_LANG: LanguageProps = {
-  name: SLOVAK,
-  shortcut: SK,
-  regional: SK_SK,
+export const SLOVAK_LANG_DATA: LanguageDataProps = {
+  name: SLOVAK_LANG_NAME,
+  shortcut: SLOVAK_LANG_NAME_SHORTCUT,
+  regional: SLOVAK_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const SLOVENIAN_LANG: LanguageProps = {
-  name: SLOVENIAN,
-  shortcut: SL,
-  regional: SL_SI,
+export const SLOVENIAN_LANG_DATA: LanguageDataProps = {
+  name: SLOVENIAN_LANG_NAME,
+  shortcut: SLOVENIAN_LANG_NAME_SHORTCUT,
+  regional: SLOVENIAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const SOMALI_LANG: LanguageProps = {
-  name: SOMALI,
-  shortcut: SO,
-  regional: SO_SO,
+export const SOMALI_LANG_DATA: LanguageDataProps = {
+  name: SOMALI_LANG_NAME,
+  shortcut: SOMALI_LANG_NAME_SHORTCUT,
+  regional: SOMALI_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const SPANISH_LANG: LanguageProps = {
-  name: SPANISH,
-  shortcut: ES,
-  regional: ES_LIST,
+export const SPANISH_LANG_DATA: LanguageDataProps = {
+  name: SPANISH_LANG_NAME,
+  shortcut: SPANISH_LANG_NAME_SHORTCUT,
+  regional: SPANISH_LANG_NAME_REGIONAL_SHORTCUTS,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const SUNDANESE_LANG: LanguageProps = {
-  name: SUNDANESE,
-  shortcut: SU,
-  regional: SU_ID,
+export const SUNDANESE_LANG_DATA: LanguageDataProps = {
+  name: SUNDANESE_LANG_NAME,
+  shortcut: SUNDANESE_LANG_NAME_SHORTCUT,
+  regional: SUNDANESE_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const SWAHILI_LANG: LanguageProps = {
-  name: SWAHILI,
-  shortcut: SW,
-  regional: SW_LIST,
+export const SWAHILI_LANG_DATA: LanguageDataProps = {
+  name: SWAHILI_LANG_NAME,
+  shortcut: SWAHILI_LANG_NAME_SHORTCUT,
+  regional: SWAHILI_LANG_NAME_REGIONAL_SHORTCUTS,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const SWEDISH_LANG: LanguageProps = {
-  name: SWEDISH,
-  shortcut: SV,
-  regional: SV_SE,
+export const SWEDISH_LANG_DATA: LanguageDataProps = {
+  name: SWEDISH_LANG_NAME,
+  shortcut: SWEDISH_LANG_NAME_SHORTCUT,
+  regional: SWEDISH_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const TAMIL_LANG: LanguageProps = {
-  name: TAMIL,
-  shortcut: TA,
-  regional: TA_LIST,
+export const TAMIL_LANG_DATA: LanguageDataProps = {
+  name: TAMIL_LANG_NAME,
+  shortcut: TAMIL_LANG_NAME_SHORTCUT,
+  regional: TAMIL_LANG_NAME_REGIONAL_SHORTCUTS,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const TELUGU_LANG: LanguageProps = {
-  name: TELUGU,
-  shortcut: TE,
-  regional: TE_IN,
+export const TELUGU_LANG_DATA: LanguageDataProps = {
+  name: TELUGU_LANG_NAME,
+  shortcut: TELUGU_LANG_NAME_SHORTCUT,
+  regional: TELUGU_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const THAI_LANG: LanguageProps = {
-  name: THAI,
-  shortcut: TH,
-  regional: TH_TH,
+export const THAI_LANG_DATA: LanguageDataProps = {
+  name: THAI_LANG_NAME,
+  shortcut: THAI_LANG_NAME_SHORTCUT,
+  regional: THAI_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const TIBETAN_LANG: LanguageProps = {
-  name: TIBETAN,
-  shortcut: BO,
-  regional: BO_CN,
+export const TIBETAN_LANG_DATA: LanguageDataProps = {
+  name: TIBETAN_LANG_NAME,
+  shortcut: TIBETAN_LANG_NAME_SHORTCUT,
+  regional: TIBETAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const TIGRINYA_LANG: LanguageProps = {
-  name: TIGRINYA,
-  shortcut: TI,
-  regional: TI_LIST,
+export const TIGRINYA_LANG_DATA: LanguageDataProps = {
+  name: TIGRINYA_LANG_NAME,
+  shortcut: TIGRINYA_LANG_NAME_SHORTCUT,
+  regional: TIGRINYA_LANG_NAME_REGIONAL_SHORTCUTS,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const TURKISH_LANG: LanguageProps = {
-  name: TURKISH,
-  shortcut: TR,
-  regional: TR_TR,
+export const TURKISH_LANG_DATA: LanguageDataProps = {
+  name: TURKISH_LANG_NAME,
+  shortcut: TURKISH_LANG_NAME_SHORTCUT,
+  regional: TURKISH_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const UKRAINIAN_LANG: LanguageProps = {
-  name: UKRAINIAN,
-  shortcut: UK,
-  regional: UK_UA,
+export const UKRAINIAN_LANG_DATA: LanguageDataProps = {
+  name: UKRAINIAN_LANG_NAME,
+  shortcut: UKRAINIAN_LANG_NAME_SHORTCUT,
+  regional: UKRAINIAN_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const URDU_LANG: LanguageProps = {
-  name: URDU,
-  shortcut: UR,
-  regional: UR_LIST,
+export const URDU_LANG_DATA: LanguageDataProps = {
+  name: URDU_LANG_NAME,
+  shortcut: URDU_LANG_NAME_SHORTCUT,
+  regional: URDU_LANG_NAME_REGIONAL_SHORTCUTS,
   ...ARABIC_TEXT_ORIENTATION,
 };
 
-export const UZBEK_LANG: LanguageProps = {
-  name: UZBEK,
-  shortcut: UZ,
-  regional: UZ_UZ,
+export const UZBEK_LANG_DATA: LanguageDataProps = {
+  name: UZBEK_LANG_NAME,
+  shortcut: UZBEK_LANG_NAME_SHORTCUT,
+  regional: UZBEK_LANG_NAME_REGIONAL_SHORTCUT,
   ...ARABIC_TEXT_ORIENTATION,
 };
 
-export const VIETNAMESE_LANG: LanguageProps = {
-  name: VIETNAMESE,
-  shortcut: VI,
-  regional: VI_VN,
+export const VIETNAMESE_LANG_DATA: LanguageDataProps = {
+  name: VIETNAMESE_LANG_NAME,
+  shortcut: VIETNAMESE_LANG_NAME_SHORTCUT,
+  regional: VIETNAMESE_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const WELSH_LANG: LanguageProps = {
-  name: WELSH,
-  shortcut: CY,
-  regional: CY_GB,
+export const WELSH_LANG_DATA: LanguageDataProps = {
+  name: WELSH_LANG_NAME,
+  shortcut: WELSH_LANG_NAME_SHORTCUT,
+  regional: WELSH_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const XHOSA_LANG: LanguageProps = {
-  name: XHOSA,
-  shortcut: XH,
-  regional: XH_ZA,
+export const XHOSA_LANG_DATA: LanguageDataProps = {
+  name: XHOSA_LANG_NAME,
+  shortcut: XHOSA_LANG_NAME_SHORTCUT,
+  regional: XHOSA_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const YIDDISH_LANG: LanguageProps = {
-  name: YIDDISH,
-  shortcut: YI,
-  regional: YI_,
+export const YIDDISH_LANG_DATA: LanguageDataProps = {
+  name: YIDDISH_LANG_NAME,
+  shortcut: YIDDISH_LANG_NAME_SHORTCUT,
+  regional: YIDDISH_LANG_NAME_REGIONAL_SHORTCUT,
   ...ARABIC_TEXT_ORIENTATION,
 };
 
-export const ZULU_LANG: LanguageProps = {
-  name: ZULU,
-  shortcut: ZU,
-  regional: ZU_ZA,
+export const ZULU_LANG_DATA: LanguageDataProps = {
+  name: ZULU_LANG_NAME,
+  shortcut: ZULU_LANG_NAME_SHORTCUT,
+  regional: ZULU_LANG_NAME_REGIONAL_SHORTCUT,
   ...DEFAULT_TEXT_ORIENTATION,
 };
 
-export const LANGUAGES = [
-  AFRIKAANS_LANG,
-  ALBANIAN_LANG,
-  ARABIC_LANG,
-  ARMENIAN_LANG,
-  AZERBAIJANI_LANG,
-  BASQUE_LANG,
-  BELARUSIAN_LANG,
-  BENGALI_LANG,
-  BOSNIAN_LANG,
-  BULGARIAN_LANG,
-  CATALAN_LANG,
-  CHINESE_LANG,
-  CROATIAN_LANG,
-  CZECH_LANG,
-  DANISH_LANG,
-  DUTCH_LANG,
-  ENGLISH_LANG,
-  ESPERANTO_LANG,
-  ESTONIAN_LANG,
-  FINNISH_LANG,
-  FRENCH_LANG,
-  GALICIAN_LANG,
-  GEORGIAN_LANG,
-  GERMAN_LANG,
-  GREEK_LANG,
-  GUJARATI_LANG,
-  HAITIAN_LANG,
-  HAUSA_LANG,
-  HEBREW_LANG,
-  HINDI_LANG,
-  HUNGARIAN_LANG,
-  ICELANDIC_LANG,
-  INDONESIAN_LANG,
-  IRISH_LANG,
-  ITALIAN_LANG,
-  JAPANESE_LANG,
-  KANNADA_LANG,
-  KAZAKH_LANG,
-  KHMER_LANG,
-  KOREAN_LANG,
-  LAO_LANG,
-  LATVIAN_LANG,
-  LITHUANIAN_LANG,
-  LUXEMBOURGISH_LANG,
-  MACEDONIAN_LANG,
-  MALAY_LANG,
-  MALAYALAM_LANG,
-  MALTESE_LANG,
-  MARATHI_LANG,
-  MONGOLIAN_LANG,
-  NEPALI_LANG,
-  NORWEGIAN_LANG,
-  ODIA_LANG,
-  PASHTO_LANG,
-  PERSIAN_LANG,
-  POLISH_LANG,
-  PORTUGUESE_LANG,
-  PUNJABI_LANG,
-  ROMANIAN_LANG,
-  RUSSIAN_LANG,
-  SERBIAN_LANG,
-  SESOTHO_LANG,
-  SINHALA_LANG,
-  SLOVAK_LANG,
-  SLOVENIAN_LANG,
-  SOMALI_LANG,
-  SPANISH_LANG,
-  SUNDANESE_LANG,
-  SWAHILI_LANG,
-  SWEDISH_LANG,
-  TAMIL_LANG,
-  TELUGU_LANG,
-  THAI_LANG,
-  TIBETAN_LANG,
-  TIGRINYA_LANG,
-  TURKISH_LANG,
-  UKRAINIAN_LANG,
-  URDU_LANG,
-  UZBEK_LANG,
-  VIETNAMESE_LANG,
-  WELSH_LANG,
-  XHOSA_LANG,
-  YIDDISH_LANG,
-  ZULU_LANG,
+export const LANGUAGES_DATA = [
+  AFRIKAANS_LANG_DATA,
+  ALBANIAN_LANG_DATA,
+  ARABIC_LANG_DATA,
+  ARMENIAN_LANG_DATA,
+  AZERBAIJANI_LANG_DATA,
+  BASQUE_LANG_DATA,
+  BELARUSIAN_LANG_DATA,
+  BENGALI_LANG_DATA,
+  BOSNIAN_LANG_DATA,
+  BULGARIAN_LANG_DATA,
+  CATALAN_LANG_DATA,
+  CHINESE_LANG_DATA,
+  CROATIAN_LANG_DATA,
+  CZECH_LANG_DATA,
+  DANISH_LANG_DATA,
+  DUTCH_LANG_DATA,
+  ENGLISH_LANG_DATA,
+  ESPERANTO_LANG_DATA,
+  ESTONIAN_LANG_DATA,
+  FINNISH_LANG_DATA,
+  FRENCH_LANG_DATA,
+  GALICIAN_LANG_DATA,
+  GEORGIAN_LANG_DATA,
+  GERMAN_LANG_DATA,
+  GREEK_LANG_DATA,
+  GUJARATI_LANG_DATA,
+  HAITIAN_LANG_DATA,
+  HAUSA_LANG_DATA,
+  HEBREW_LANG_DATA,
+  HINDI_LANG_DATA,
+  HUNGARIAN_LANG_DATA,
+  ICELANDIC_LANG_DATA,
+  INDONESIAN_LANG_DATA,
+  IRISH_LANG_DATA,
+  ITALIAN_LANG_DATA,
+  JAPANESE_LANG_DATA,
+  KANNADA_LANG_DATA,
+  KAZAKH_LANG_DATA,
+  KHMER_LANG_DATA,
+  KOREAN_LANG_DATA,
+  LAO_LANG_DATA,
+  LATVIAN_LANG_DATA,
+  LITHUANIAN_LANG_DATA,
+  LUXEMBOURGISH_LANG_DATA,
+  MACEDONIAN_LANG_DATA,
+  MALAY_LANG_DATA,
+  MALAYALAM_LANG_DATA,
+  MALTESE_LANG_DATA,
+  MARATHI_LANG_DATA,
+  MONGOLIAN_LANG_DATA,
+  NEPALI_LANG_DATA,
+  NORWEGIAN_LANG_DATA,
+  ODIA_LANG_DATA,
+  PASHTO_LANG_DATA,
+  PERSIAN_LANG_DATA,
+  POLISH_LANG_DATA,
+  PORTUGUESE_LANG_DATA,
+  PUNJABI_LANG_DATA,
+  ROMANIAN_LANG_DATA,
+  RUSSIAN_LANG_DATA,
+  SERBIAN_LANG_DATA,
+  SESOTHO_LANG_DATA,
+  SINHALA_LANG_DATA,
+  SLOVAK_LANG_DATA,
+  SLOVENIAN_LANG_DATA,
+  SOMALI_LANG_DATA,
+  SPANISH_LANG_DATA,
+  SUNDANESE_LANG_DATA,
+  SWAHILI_LANG_DATA,
+  SWEDISH_LANG_DATA,
+  TAMIL_LANG_DATA,
+  TELUGU_LANG_DATA,
+  THAI_LANG_DATA,
+  TIBETAN_LANG_DATA,
+  TIGRINYA_LANG_DATA,
+  TURKISH_LANG_DATA,
+  UKRAINIAN_LANG_DATA,
+  URDU_LANG_DATA,
+  UZBEK_LANG_DATA,
+  VIETNAMESE_LANG_DATA,
+  WELSH_LANG_DATA,
+  XHOSA_LANG_DATA,
+  YIDDISH_LANG_DATA,
+  ZULU_LANG_DATA,
 ] as const;

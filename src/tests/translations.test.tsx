@@ -1,27 +1,25 @@
 import { render, RenderResult } from '@testing-library/react';
 import translationMock from '../__mocks__/translations.mock';
 import {
-  ENGLISH,
-  GERMAN,
-  POLISH,
-  Translation,
+  ENGLISH_LANG_NAME_SHORTCUT,
+  GERMAN_LANG_NAME,
+  POLISH_LANG_NAME_REGIONAL_SHORTCUT,
   TranslationProvider,
 } from '../index';
-import TestComponent from './TestComponent.comp';
-import { LanguageNameMix } from '../interfaces/translations/schema.interface';
+import TestComponent from './TestComponent';
+import { LanguageNameMix } from '../interfaces/Translation';
 
-const { translation } = translationMock;
-const { English, Polish } = translation;
-
+const ENGLISH_GREETING_SUMMER_TEXT = 'Goodbye Spring! Hello Summer!';
+const ENGLISH_GREETING_AUTUMN_TEXT = 'Winter is coming';
+const ENGLISH_GREETING_TEXT = 'Hello';
 const ENGLISH_SOME_TEXT =
   '<p>This is translation with some parameter and <a href="#test">link</a>!</p>';
+const POLISH_SOME_TEXT = 'To jest tłumaczenie bez parametru!';
+const POLISH_GREETING_TEXT = 'Cześć';
 
 const createPlayground = (lng?: LanguageNameMix): RenderResult =>
   render(
-    <TranslationProvider
-      language={lng}
-      translation={translationMock as unknown as Translation}
-    >
+    <TranslationProvider language={lng} translation={translationMock}>
       <TestComponent />
     </TranslationProvider>
   );
@@ -31,14 +29,14 @@ const englishSomethingTranslationTest = ({
   queryByText,
 }: RenderResult) => {
   expect(container).toContainHTML(ENGLISH_SOME_TEXT);
-  expect(queryByText(Polish.something)).not.toBeInTheDocument();
+  expect(queryByText(POLISH_SOME_TEXT)).not.toBeInTheDocument();
 };
 
 const polishSomethingTranslationTest = ({
   container,
   getByText,
 }: RenderResult) => {
-  expect(getByText(Polish.something)).toBeInTheDocument();
+  expect(getByText(POLISH_SOME_TEXT)).toBeInTheDocument();
   expect(container).not.toContainHTML(ENGLISH_SOME_TEXT);
 };
 
@@ -46,21 +44,21 @@ const englishGreetingTranslationTest = ({
   getByText,
   queryByText,
 }: RenderResult) => {
-  expect(getByText(English.greetings.greeting)).toBeInTheDocument();
-  expect(queryByText(Polish.greetings.greeting)).not.toBeInTheDocument();
+  expect(getByText(ENGLISH_GREETING_TEXT)).toBeInTheDocument();
+  expect(queryByText(POLISH_GREETING_TEXT)).not.toBeInTheDocument();
 };
 
 const polishGreetingTranslationTest = ({
   getByText,
   queryByText,
 }: RenderResult) => {
-  expect(getByText(Polish.greetings.greeting)).toBeInTheDocument();
-  expect(queryByText(English.greetings.greeting)).not.toBeInTheDocument();
+  expect(getByText(POLISH_GREETING_TEXT)).toBeInTheDocument();
+  expect(queryByText(ENGLISH_GREETING_TEXT)).not.toBeInTheDocument();
 };
 
 const seasonGreetingsTranslationTest = ({ getByText }: RenderResult) => {
-  expect(getByText(English.greetings.season.autumn)).toBeInTheDocument();
-  expect(getByText(English.greetings.season.summer)).toBeInTheDocument();
+  expect(getByText(ENGLISH_GREETING_AUTUMN_TEXT)).toBeInTheDocument();
+  expect(getByText(ENGLISH_GREETING_SUMMER_TEXT)).toBeInTheDocument();
 };
 
 const missingTranslationTest = ({ getByText }: RenderResult) =>
@@ -89,17 +87,17 @@ describe('Translation test', () => {
     });
 
     test('Should translate to English', () => {
-      browserLang.mockReturnValue(ENGLISH);
+      browserLang.mockReturnValue(ENGLISH_LANG_NAME_SHORTCUT);
       testEnglishTranslations(createPlayground());
     });
 
     test('Should translate to Polish', () => {
-      browserLang.mockReturnValue(POLISH);
+      browserLang.mockReturnValue(POLISH_LANG_NAME_REGIONAL_SHORTCUT);
       testPolishTranslations(createPlayground());
     });
 
     test('Should translate to Polish because of missing German translations', () => {
-      browserLang.mockReturnValue(GERMAN);
+      browserLang.mockReturnValue(GERMAN_LANG_NAME);
       // There is no translation for German. Translation file is setup to prior Polish language. Because of that tests results should be same as for Polish translations.
       testPolishTranslations(createPlayground());
     });
@@ -107,16 +105,18 @@ describe('Translation test', () => {
 
   describe('with setup language', () => {
     test('Should translate to English', () => {
-      testEnglishTranslations(createPlayground(ENGLISH));
+      testEnglishTranslations(createPlayground(ENGLISH_LANG_NAME_SHORTCUT));
     });
 
     test('Should translate to Polish', () => {
-      testPolishTranslations(createPlayground(POLISH));
+      testPolishTranslations(
+        createPlayground(POLISH_LANG_NAME_REGIONAL_SHORTCUT)
+      );
     });
 
     test('Should translate to Polish because of missing German translations', () => {
       // There is no translation for German. Translation file is setup to prior Polish language. Because of that tests results should be same as for Polish translations.
-      testPolishTranslations(createPlayground(GERMAN));
+      testPolishTranslations(createPlayground(GERMAN_LANG_NAME));
     });
   });
 });

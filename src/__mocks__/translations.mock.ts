@@ -1,7 +1,11 @@
-import { EN, PL } from '../index';
+import {
+  ENGLISH_LANG_NAME_SHORTCUT,
+  POLISH_LANG_NAME_SHORTCUT,
+  Translation,
+} from '../index';
 
-const translationMock = {
-  defaultLang: [PL, EN],
+const translationMock: Translation = {
+  defaultLang: [POLISH_LANG_NAME_SHORTCUT, ENGLISH_LANG_NAME_SHORTCUT],
   translation: {
     English: {
       something: 'This is translation with `parameter` and `html`!',
